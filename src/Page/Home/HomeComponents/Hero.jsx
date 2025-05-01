@@ -6,7 +6,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Hero = () => {
   return (
-    <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 relative ">
       <div className="flex flex-col lg:flex-row justify-center items-center gap-8 relative crd">
         {/* Left Section */}
 
@@ -21,7 +21,7 @@ const Hero = () => {
             <h1 className="md:text-6xl uppercase my-4 text-5xl   outfit csd">
               The Everest It
             </h1>
-            <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] poppins">
+            <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[14px] poppins">
               Get ready to embark on a journey of knowledge with our innovative
               learning platform. Explore a wide range of courses and interactive
               lessons designed by industry-expert instructors to help you reach
