@@ -29,12 +29,12 @@ const Hero = () => {
             </p>
 
             {/* Stats */}
-            <div className="mb-4 w-auto lg:w-12/12 ">
+            <div className="mb-4 w-auto lg:w-12/12 crd">
               <div className="stats shadow md:w-full w-[99%] overflow-hidden py-3 pz-4">
                 {/* Total Courses */}
                 <div className=" flex items-center gap-1.5 sm:w-auto pl-4 ">
                   <div>
-                    <div className="stat-title text-xs sm:text-sm">
+                    <div className="stat-title text-xs sm:text-sm crd">
                       Total Courses
                     </div>
                     <div className="flex items-center gap-2">
@@ -42,7 +42,7 @@ const Hero = () => {
                         50+
                       </div>
                     </div>
-                    <div className="stat-desc text-xs md:block hidden">
+                    <div className="stat-desc text-xs md:block hidden crd">
                       21% more than last month
                     </div>
                   </div>
@@ -51,7 +51,7 @@ const Hero = () => {
                 {/* Total Students */}
                 <div className=" flex items-center gap-1.5 w-full sm:w-auto">
                   <div>
-                    <div className="stat-title text-xs sm:text-sm">
+                    <div className="stat-title text-xs sm:text-sm crd">
                       Total Students
                     </div>
                     <div className="flex items-center gap-3">
@@ -59,7 +59,7 @@ const Hero = () => {
                         4200+
                       </div>
                     </div>
-                    <div className="stat-desc text-xs md:block hidden">
+                    <div className="stat-desc text-xs md:block hidden crd">
                       21% more than last month
                     </div>
                   </div>
@@ -70,7 +70,7 @@ const Hero = () => {
                   <div className="stat-figure text-secondary flex-shrink-0 mr-2"></div>
                   <div>
                     <div className="stat-value text-lg sm:text-xl">90%</div>
-                    <div className="stat-title text-xs sm:text-sm">
+                    <div className="stat-title text-xs sm:text-sm crd">
                       Job Success
                     </div>
                     <div className="stat-desc text-[#141F51] text-xs md:block hidden">
@@ -102,7 +102,7 @@ const Hero = () => {
         </div>
 
         {/* Right Section (Video) */}
-        <div className="flex-1 crd flex justify-center items-center mt-6 w-full h-full lg:mt-0 lg:w-[500px] overflow-hidden lg:h-[350px] shadow-2xl border border-gray-200 rounded-xl">
+        <div className="flex-1 flex justify-center items-center mt-6 w-full h-full lg:mt-0 lg:w-[500px] overflow-hidden lg:h-[350px] shadow-2xl border border-gray-200 rounded-xl">
           <DotLottieReact
             className="lg:w-[700px] w-full h-full"
             src="https://lottie.host/34fb9247-ca7e-40ec-9a37-69699d829d0a/LdSredAdCh.lottie"
