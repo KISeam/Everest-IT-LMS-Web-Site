@@ -16,52 +16,14 @@ const Home = () => {
   return (
     <div className=" ">
       <div
-        style={{
-          position: "fixed",
-          zIndex: "20",
-          bottom: "0px",
-          left: "20px",
-          display: "flex",
-          alignItems: "center",
-          gap: "10px",
-          backgroundColor: "transparent",
-          padding: "8px 12px",
-          borderRadius: "30px",
-          cursor: "pointer",
-        }}
-      >
-        <div style={{}}>
-          <DotLottieReact
-            className="w-[150px] "
-            src="https://lottie.host/dbe74e91-d4cb-46b7-9219-54c29432d806/nBBwAAbPFi.lottie"
-            loop
-            autoplay
-          />
-        </div>
-      </div>
-
-      {/* Inline animation */}
-      <style>
-        {`
-          @keyframes shake {
-            0% { transform: translateX(0); }
-            25% { transform: translateX(-2px); }
-            50% { transform: translateX(2px); }
-            75% { transform: translateX(-2px); }
-            100% { transform: translateX(0); }
-          }
-        `}
-      </style>
-
-      <div
-        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 w-full relative bg-gradient-to-br from-[#ffffff] to-[#f0f4f8]"
+        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 w-full relative bg-[#FAF0F0]"
       >
           <Hero />
       </div>
       <HomeCategory />
       <div className="bg-gray-50 py-16">
         <div
-          className="bg-cover w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 rounded-2xl bg-white shadow-xl"
+          className="bg-cover w-full sm:w-11/12 lg:w-11/12 2xl:w-12/12 mx-auto px-4 sm:px-6 lg:px-8 rounded-2xl bg-[#FAF0F0] shadow-xl"
           // style={{ backgroundImage: `url(${bgImage2})` }}
         >
           <PopularCourse />

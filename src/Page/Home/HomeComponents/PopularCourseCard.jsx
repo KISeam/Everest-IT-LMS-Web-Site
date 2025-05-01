@@ -154,7 +154,7 @@ const PopularCourseCard = () => {
                     </p>
                   </Link>
                   <a
-                    href={`https://wa.me/8801321231802?text=${encodeURIComponent(
+                    href={`https://wa.me/8801829818616?text=${encodeURIComponent(
                       `আমি "${course.title}" কোর্সটি করতে চাই।`
                     )}`}
                     target="_blank"
