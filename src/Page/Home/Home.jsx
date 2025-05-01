@@ -71,7 +71,7 @@ const Home = () => {
       <HomeCategory />
       <div className="bg-gray-50 py-16">
         <div
-          className="bg-cover md:w-10/12 mx-auto rounded-2xl bg-[#dff6ff]"
+          className="bg-cover w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 rounded-2xl bg-[#dff6ff]"
           // style={{ backgroundImage: `url(${bgImage2})` }}
         >
           <PopularCourse />

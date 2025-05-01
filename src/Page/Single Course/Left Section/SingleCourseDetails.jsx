@@ -220,22 +220,22 @@ const SingleCourseDetails = ({ course, populerCourse }) => {
                   <div className="flex flex-wrap gap-x-20 gap-y-3 border border-gray-300 rounded-lg p-6">
                     <div className="space-y-3">
                       <div className="flex items-center gap-1.5">
-                        <div className="w-3 h-3 rounded-full bg-[#FFD236]"></div>
+                        <div className="w-3 h-3 rounded-full bg-[#f81515]"></div>
                         <p className="crd text-md">Full Stack Developer</p>
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <div className="w-3 h-3 rounded-full bg-[#FFD236]"></div>
+                        <div className="w-3 h-3 rounded-full bg-[#f81515]"></div>
                         <p className="crd text-md">Back-end Developer</p>
                       </div>
                     </div>
 
                     <div className="space-y-3">
                       <div className="flex items-center gap-1.5">
-                        <div className="w-3 h-3 rounded-full bg-[#FFD236]"></div>
+                        <div className="w-3 h-3 rounded-full bg-[#f81515]"></div>
                         <p className="crd text-md">Front-end Developer</p>
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <div className="w-3 h-3 rounded-full bg-[#FFD236]"></div>
+                        <div className="w-3 h-3 rounded-full bg-[#f81515]"></div>
                         <p className="crd text-md">Web Application Developer</p>
                       </div>
                     </div>
@@ -276,7 +276,7 @@ const SingleCourseDetails = ({ course, populerCourse }) => {
             </div>
 
             <div className="block lg:hidden space-y-6">
-              <h3 className="text-[#FFD236] text-2xl md:text-3xl outfit-semibold text-center">
+              <h3 className="text-[#f81515] text-2xl md:text-3xl outfit-semibold text-center">
                 Populer <span className="crd">Courses</span>
               </h3>
               <div className="flex flex-wrap justify-center gap-6">
@@ -300,7 +300,7 @@ const SingleCourseDetails = ({ course, populerCourse }) => {
                             <BiCategory />
                             <p className="text-[13px] work">{item.category}</p>
                           </div>
-                          <p className="bg-[#FFD236] text-white text-[13px] px-2 py-1 work rounded-[4px]">
+                          <p className="bg-[#f81515] text-white text-[13px] px-2 py-1 work rounded-[4px]">
                             {item.type}
                           </p>
                         </div>

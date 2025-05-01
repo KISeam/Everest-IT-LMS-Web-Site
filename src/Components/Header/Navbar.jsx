@@ -35,8 +35,8 @@ const Navbar = () => {
     // { to: "/events", label: "Events" },
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
-    { to: "/our-team", label: "Our Team" },
-    { to: "/certification", label: "Certification" },
+    // { to: "/our-team", label: "Our Team" },
+    // { to: "/certification", label: "Certification" },
   ];
 
   return (
@@ -65,7 +65,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       `block px-4 py-3 rounded-lg transition-all duration-300 text-lg ${
                         isActive
-                          ? "bg-[#141F51] text-white"
+                          ? "bg-[#f81515] text-white"
                           : "text-gray-700 hover:bg-gray-100"
                       }`
                     }
@@ -131,14 +131,14 @@ const Navbar = () => {
                 to={to}
                 className={({ isActive }) =>
                   `relative pb-1 transition-all duration-300 
-                    hover:text-[#141F51] text-[16px]
+                    hover:text-[#f81515] text-[16px]
                     ${
                       isActive
-                        ? "text-[#FFD236] after:scale-x-100"
+                        ? "text-[#f81515] after:scale-x-100"
                         : "text-black after:scale-x-0"
                     } 
                     after:content-[''] after:absolute after:left-0 after:bottom-0 
-                    after:w-full after:h-[2px] after:bg-[#FFD236] after:transition-transform 
+                    after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform 
                     after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100`
                 }
               >

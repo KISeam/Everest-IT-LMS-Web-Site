@@ -31,7 +31,7 @@ const HomeCategory = () => {
 
     return (
         <div className='bg-white'>
-            <div className='grid cursor-pointer grid-cols-2 md:grid-cols-2 lg:grid-cols-4 w-11/12 md:w-9/12 mx-auto justify-center items-center gap-x-5 gap-y-3 py-6 md:py-10'>
+            <div className='grid cursor-pointer grid-cols-2 md:grid-cols-2 lg:grid-cols-4 w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 justify-center items-center gap-x-5 gap-y-3 py-6 md:py-10'>
                 {
                     categories.map((cat, index) => (
                         <div key={index}>

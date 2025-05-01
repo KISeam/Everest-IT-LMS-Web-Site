@@ -9,6 +9,7 @@ import Mentors from "./AboutComponents/Mentors";
 import AboutGallery from "./AboutComponents/AboutGallery";
 import Employe from "../Home/HomeComponents/Employe";
 import Concerns from "../Home/HomeComponents/Concerns";
+import OurTeam from "../Our Team/OurTeam";
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
       <Concerns/>
       <Category></Category>
       <Mission></Mission>
+      <OurTeam />
 
       {/* <Mentors></Mentors> */}
       {/* <AboutGallery></AboutGallery> */}

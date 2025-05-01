@@ -20,7 +20,7 @@ const SingleCourseCard = ({ course, populerCourse }) => {
                   <BiCategory />
                   <p className="text-[13px] work">{course.category}</p>
                 </div>
-                <p className="bg-[#FFD236] text-white text-[13px] px-2 py-1 work rounded-[4px]">
+                <p className="bg-[#f81515] text-white text-[13px] px-2 py-1 work rounded-[4px]">
                   {course.type}
                 </p>
               </div>
@@ -34,7 +34,7 @@ const SingleCourseCard = ({ course, populerCourse }) => {
           </div>
 
           <div className="hidden lg:block space-y-4">
-            <h3 className="text-[#FFD236] text-2xl md:text-3xl outfit-semibold text-center">
+            <h3 className="text-[#f81515] text-2xl md:text-3xl outfit-semibold text-center">
               Populer <span className="crd">Courses</span>
             </h3>
             {populerCourse.slice(0, 2).map((item) => (
@@ -57,7 +57,7 @@ const SingleCourseCard = ({ course, populerCourse }) => {
                         <BiCategory />
                         <p className="text-[13px] work">{item.category}</p>
                       </div>
-                      <p className="bg-[#FFD236] text-white text-[13px] px-2 py-1 work rounded-[4px]">
+                      <p className="bg-[#f81515] text-white text-[13px] px-2 py-1 work rounded-[4px]">
                         {item.type}
                       </p>
                     </div>

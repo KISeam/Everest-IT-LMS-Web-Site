@@ -60,7 +60,7 @@ const OurTeam = () => {
           </div>
 
           <div className="py-10">
-            <div className="w-11/12 lg:w-9/12 mx-auto">
+            <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-wrap justify-center items-center gap-10 xl:gap-14 text-center">
                 {teamMembers.map((member) => (
                   <div key={member.id} className="flex flex-col gap-3">
@@ -85,9 +85,10 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <div className="w-9/12 mx-auto">
+
+        {/* <div className="w-9/12 mx-auto">
           <Overview />
-        </div>
+        </div> */}
       </div>
     </>
   );

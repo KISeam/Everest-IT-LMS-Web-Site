@@ -14,7 +14,7 @@ const RightSeminarSection = () => {
     <>
       <div>
         <div className="space-y-7">
-          <h1 className="text-[#FFD236] text-4xl md:text-5xl outfit-semibold ">
+          <h1 className="text-[#f81515] text-4xl md:text-5xl outfit-semibold ">
             Our <span className="crd">Seminars</span>
           </h1>
           <div className="flex flex-col gap-6">

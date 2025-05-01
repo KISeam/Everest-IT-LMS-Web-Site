@@ -6,7 +6,7 @@ import hero3 from "../../../assets/img/aboutpage/hero3.jpg";
 const AboutHero = () => {
   return (
     <div className="py-10 bg-[#ecfcfb]">
-      <div className="mx-auto w-9/12">
+      <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="overflow-hidden ">
@@ -40,7 +40,7 @@ const AboutHero = () => {
               Welcome to <span className="cpr"> Everest IT</span>
             </h2>
 
-            <div className="flex flex-col gap-4 text-[#414042]">
+            <div className="flex flex-col gap-2.5 text-[#414042]">
               <p>
                 Welcome to our esteemed IT training company! We are dedicated to
                 empowering individuals and organizations with the skills and
@@ -55,9 +55,7 @@ const AboutHero = () => {
                 trends and practices is essential. That's why we offer a wide
                 range of cutting-edge courses and certifications, carefully
                 curated by industry experts and tailored to meet the demands of
-                the digital era. Whether you are a beginner starting your IT
-                journey or a seasoned professional looking to expand your skill
-                set, we have the perfect training solution for you.
+                the digital era.
               </p>
               <p>
                 Our team of highly qualified instructors brings extensive

@@ -28,7 +28,7 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                   <BiCategory />
                   <p className="text-[13px] work">{category}</p>
                 </div>
-                <p className="bg-[#FFD236] text-white text-[13px] px-2 py-1 work rounded-[4px]">
+                <p className="bg-[#f81515] text-white text-[13px] px-2 py-1 work rounded-[4px]">
                   {type}
                 </p>
               </div>

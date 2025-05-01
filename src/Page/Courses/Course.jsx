@@ -138,7 +138,7 @@ const Course = () => {
           <div>
             {initialLoading ? (
               <div className="flex justify-center items-center h-screen">
-                <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#FFD236]"></div>
+                <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-[#f81515]"></div>
               </div>
             ) : (
               <div className="flex flex-col-reverse lg:flex-row gap-4">
@@ -166,8 +166,8 @@ const Course = () => {
                           disabled={loadMoreLoading}
                           className={`px-6 py-2 cursor-pointer ${
                             loadMoreLoading
-                              ? "bg-[#FFD236]cursor-not-allowed"
-                              : "bg-[#f2a56a] hover:bg-[#FFD236]"
+                              ? "bg-[#f81515]cursor-not-allowed"
+                              : "bg-[#f2a56a] hover:bg-[#f81515]"
                           } text-white rounded-lg transition duration-300`}
                         >
                           {loadMoreLoading ? "Loading..." : "Load More"}

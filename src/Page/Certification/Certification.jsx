@@ -92,7 +92,7 @@ const Certification = () => {
                   type="text"
                   id="phoneNumber"
                   placeholder="Provide Contact No please"
-                  className="border border-gray-300 p-2 rounded-md w-full px-4 crd focus:border-[#FFD236] focus:ring-2 focus:ring-[#FFD236] focus:outline-none transition-all"
+                  className="border border-gray-300 p-2 rounded-md w-full px-4 crd focus:border-[#f81515] focus:ring-2 focus:ring-[#f81515] focus:outline-none transition-all"
                   value={searchValues.phoneNumber}
                   onChange={handleInputChange}
                 />
@@ -110,7 +110,7 @@ const Certification = () => {
                   type="email"
                   id="email"
                   placeholder="Provide Email please"
-                  className="border border-gray-300 p-2 rounded-md w-full px-4 crd focus:border-[#FFD236] focus:ring-2 focus:ring-[#FFD236] focus:outline-none transition-all"
+                  className="border border-gray-300 p-2 rounded-md w-full px-4 crd focus:border-[#f81515] focus:ring-2 focus:ring-[#f81515] focus:outline-none transition-all"
                   value={searchValues.email}
                   onChange={handleInputChange}
                 />
@@ -128,7 +128,7 @@ const Certification = () => {
                   type="text"
                   id="studentId"
                   placeholder="Provide Student ID Please"
-                  className="border border-gray-300 p-2 rounded-md w-full px-4 crd focus:border-[#FFD236] focus:ring-2 focus:ring-[#FFD236] focus:outline-none transition-all"
+                  className="border border-gray-300 p-2 rounded-md w-full px-4 crd focus:border-[#f81515] focus:ring-2 focus:ring-[#f81515] focus:outline-none transition-all"
                   value={searchValues.studentId}
                   onChange={handleInputChange}
                 />
@@ -138,7 +138,7 @@ const Certification = () => {
             <div className="flex justify-end w-full">
               <button
                 onClick={handleSearch}
-                className="bg-[#FFD236] text-white px-6 py-2 rounded-md font-semibold hover:bg-[#e68a47] transition-all cursor-pointer w-full md:w-auto"
+                className="bg-[#f81515] text-white px-6 py-2 rounded-md font-semibold hover:bg-[#e68a47] transition-all cursor-pointer w-full md:w-auto"
               >
                 Search
               </button>
@@ -213,7 +213,7 @@ const Certification = () => {
                               </button>
                               <button
                                 onClick={() => handleDownload(user.studentId)}
-                                className="bg-[#FFD236] text-white px-3 py-1 rounded hover:bg-[#e68a47] transition cursor-pointer"
+                                className="bg-[#f81515] text-white px-3 py-1 rounded hover:bg-[#e68a47] transition cursor-pointer"
                               >
                                 Download
                               </button>

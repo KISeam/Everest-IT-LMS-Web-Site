@@ -32,7 +32,7 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
   return (
     <div className="flex flex-col gap-7">
       <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
-        <h1 className="text-[#FFD236] text-4xl md:text-5xl outfit-semibold ">
+        <h1 className="text-[#f81515] text-4xl md:text-5xl outfit-semibold ">
           Our <span className="crd">Courses</span>
         </h1>
         <div className="flex flex-col md:flex-row items-center gap-4">
@@ -57,7 +57,7 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
               className={`py-3 px-4 cursor-pointer rounded-md shadow-md transition-colors text-white ${
                 selectedMentor
                   ? "bg-[#141F51] font-medium"
-                  : "bg-[#FFD236] hover:bg-[#FFD236]/85"
+                  : "bg-[#f81515] hover:bg-[#f81515]/85"
               }`}
             >
               <p className="text-sm md:text-base">
