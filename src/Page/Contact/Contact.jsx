@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="">
         <div className=" relative">
           <div className=" absolute z-10 w-full">
-            <div className="bg-gradient-to-r from-[#F3F7FB] via-[#F3F7FB] to-transparent flex flex-col justify-center p-10 md:pl-30 lg:pl-83 h-[22vh] lg:h-[30vh] w-full mx-auto ">
+            <div className="bg-gradient-to-r from-[#F3F7FB] via-[#F3F7FB] to-transparent flex flex-col justify-center p-10 md:pl-30 h-[22vh] lg:h-[30vh] w-full mx-auto ">
               <div className="">
                 <h1
                   style={{ fontFamily: "Outfit, sans-serif" }}
@@ -50,7 +50,7 @@ const Contact = () => {
       </div>
 
       <div className="bg-white pb-10">
-        <div className="flex flex-col lg:flex-row gap-8 lg:w-8/12 mx-auto">
+        <div className="flex flex-col lg:flex-row gap-8 w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto">
           <div className="w-full lg:w-1/2">
             <DropQuestion></DropQuestion>
           </div>
