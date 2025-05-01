@@ -66,12 +66,12 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                   Course Details
                 </p>
               </Link>
-              <a
-                // href={`https://wa.me/8801321231802?text=${encodeURIComponent(
-                //   `আমি "${title}" কোর্সটি করতে চাই।`
-                // )}`}
-                // target="_blank"
-                // rel="noopener noreferrer"
+              {/* <a
+                href={`https://wa.me/8801321231802?text=${encodeURIComponent(
+                  `আমি "${title}" কোর্সটি করতে চাই।`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="flex gap-1 text-xl items-center border border-[#141F51] px-4 py-2 mr-6 rounded-md hover:bg-[#e0f7f5] cursor-pointer transition">
                   <FaWhatsapp className="text-2xl text-[#141F51] font-semibold" />
@@ -79,7 +79,7 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                     Get Course
                   </p>
                 </div>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
