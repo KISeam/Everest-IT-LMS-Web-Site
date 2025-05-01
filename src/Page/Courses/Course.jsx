@@ -125,7 +125,7 @@ const Course = () => {
 
   return (
     <>
-      <div className="bg-[#ecfcfb] py-12">
+      <div className="bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] py-12">
         <div className="mb-24 mt-4">
           <SectionHeading
             title={"Discover Your Next Skill"}

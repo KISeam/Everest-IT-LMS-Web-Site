@@ -1,11 +1,8 @@
 import React from "react";
-import hero1 from "../../../assets/img/aboutpage/1.jpg";
-import hero2 from "../../../assets/img/aboutpage/hero2.jpg";
-import hero3 from "../../../assets/img/aboutpage/hero3.jpg";
 
 const AboutHero = () => {
   return (
-    <div className="py-10 bg-[#ecfcfb]">
+    <div className="py-10 bg-gradient-to-br from-[#ffffff] to-[#f0f4f8]">
       <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -13,7 +10,7 @@ const AboutHero = () => {
               <div className="h-full w-full">
                 <img
                   className="rounded-lg border border-gray-200 h-full w-[700px]"
-                  src={hero1}
+                  src="https://img.freepik.com/premium-photo/collage-photos-people-with-headphones-woman-wearing-headset_1380714-13798.jpg?semt=ais_hybrid&w=740"
                   alt=""
                 />
               </div>
@@ -22,14 +19,14 @@ const AboutHero = () => {
               <div className="overflow-hidden rounded-lg">
                 <img
                   className="rounded-lg border-gray-200 "
-                  src={hero2}
+                  src="https://img.freepik.com/premium-photo/connecting-teams-video-conference-collaboration-modern-office_1088041-64806.jpg?semt=ais_hybrid&w=740"
                   alt=""
                 />
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
                   className="rounded-lg  border-gray-200"
-                  src={hero3}
+                  src="https://img.freepik.com/premium-photo/technology-helps-teams-collaborate-complete-projects-quickly-cropped-shot-three-designers-having-brainstorming-session-office_590464-14717.jpg?semt=ais_hybrid&w=740"
                   alt=""
                 />
               </div>

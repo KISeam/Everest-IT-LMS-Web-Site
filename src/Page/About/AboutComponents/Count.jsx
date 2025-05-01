@@ -53,15 +53,15 @@ const Count = () => {
   };
 
   return (
-    <div className="py-12 bg-[#ecfcfb]">
-      <div className=" w-9/12 mx-auto  px-4 sm:px-6 lg:px-8">
+    <div className="py-12 bg-[#effbff]">
+      <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
           {counters.map((item, index) => {
             const Icon = getIconComponent(item?.icon);
             return (
               <motion.div
                 key={index}
-                className=" border-1 border-gray-300 rounded-2xl p-4 shadow hover:shadow-md transition duration-300 flex flex-col items-center gap-2"
+                className=" border-1 border-gray-300 rounded-2xl p-4 shadow hover:shadow-md transition duration-300 flex flex-col items-center gap-2 bg-gradient-to-br from-[#ffffff] to-[#f0f4f8]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
