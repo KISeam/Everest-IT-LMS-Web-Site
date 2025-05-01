@@ -7,7 +7,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const Hero = () => {
   return (
     <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 relative">
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 relative">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 relative crd">
         {/* Left Section */}
 
         <div className="flex-1 flex flex-col justify-between w-full">
@@ -102,7 +102,7 @@ const Hero = () => {
         </div>
 
         {/* Right Section (Video) */}
-        <div className="flex-1 flex justify-center items-center mt-6 w-full h-full lg:mt-0 lg:w-[500px] overflow-hidden lg:h-[350px] shadow-2xl border border-gray-200 rounded-xl">
+        <div className="flex-1 crd flex justify-center items-center mt-6 w-full h-full lg:mt-0 lg:w-[500px] overflow-hidden lg:h-[350px] shadow-2xl border border-gray-200 rounded-xl">
           <DotLottieReact
             className="lg:w-[700px] w-full h-full"
             src="https://lottie.host/34fb9247-ca7e-40ec-9a37-69699d829d0a/LdSredAdCh.lottie"

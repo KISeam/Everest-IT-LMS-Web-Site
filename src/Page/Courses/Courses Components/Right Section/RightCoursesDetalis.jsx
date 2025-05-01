@@ -3,28 +3,14 @@ import CourseCard from "../../../../Components/CourseCard";
 
 const RightCoursesDetalis = ({ filteredCourses }) => {
   const [selectedType, setSelectedType] = useState("All");
-  const [selectedMentor, setSelectedMentor] = useState(null);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const allMentors = [
-    ...new Set(filteredCourses.map((course) => course.instructorName)),
-  ];
 
   const filteredByType = filteredCourses.filter((course) => {
     const typeMatch = selectedType === "All" || course.type === selectedType;
-    const mentorMatch =
-      !selectedMentor || course.instructorName === selectedMentor;
-    return typeMatch && mentorMatch;
+    return typeMatch;
   });
 
   const handleTypeChange = (type) => {
     setSelectedType(type);
-    setSelectedMentor(null);
-  };
-
-  const handleMentorSelect = (mentor) => {
-    setSelectedMentor(mentor === selectedMentor ? null : mentor);
-    setIsDropdownOpen(false);
   };
 
   const typeButtons = ["All", "Online", "Offline", "Recorded"];
@@ -50,43 +36,6 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
                 <p className="text-sm md:text-base">{type}</p>
               </button>
             ))}
-          </div>
-          <div className="relative">
-            <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className={`py-3 px-4 cursor-pointer rounded-md shadow-md transition-colors text-white ${
-                selectedMentor
-                  ? "bg-[#141F51] font-medium"
-                  : "bg-[#f81515] hover:bg-[#f81515]/85"
-              }`}
-            >
-              <p className="text-sm md:text-base">
-                {selectedMentor || " Select Mentor 🖌️"}
-              </p>
-            </button>
-            {isDropdownOpen && (
-              <div className="absolute right-0 mt-2 w-50 bg-white rounded-md shadow-lg z-10 max-h-100 overflow-y-auto">
-                {allMentors.length > 0 ? (
-                  allMentors.map((mentor) => (
-                    <div
-                      key={mentor}
-                      onClick={() => handleMentorSelect(mentor)}
-                      className={`px-4 py-2 text-base cursor-pointer ${
-                        selectedMentor === mentor
-                          ? "bg-[#141F51] text-white"
-                          : "hover:bg-gray-100 text-black"
-                      }`}
-                    >
-                      {mentor}
-                    </div>
-                  ))
-                ) : (
-                  <div className="px-4 py-2 text-sm text-gray-500">
-                    No mentors available
-                  </div>
-                )}
-              </div>
-            )}
           </div>
         </div>
       </div>

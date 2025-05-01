@@ -47,7 +47,7 @@ const LeftCategory = ({
             >
               <input
                 type="checkbox"
-                className="checkbox w-5 h-5 rounded-sm"
+                className="checkbox w-5 h-5 rounded-sm checkbox-neutral"
                 checked={selectedCategories.includes(category.name)}
                 onChange={() => handleCheckboxChange(category.name)}
               />

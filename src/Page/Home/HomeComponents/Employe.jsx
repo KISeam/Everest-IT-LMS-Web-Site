@@ -4,8 +4,8 @@ import ButtonPrimary from "../../../Components/Shared/ButtonPrimary";
 
 const Employe = () => {
   return (
-    <div className="bg-white py-12 md:py-2">
-      <div className="bg-[#dff6ff] w-11/12 md:w-10/12 mx-auto rounded-2xl py-16  px-4">
+    <div className="bg-white pb-12 md:pb-20">
+      <div className="bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl border border-gray-200 w-11/12 md:w-10/12 mx-auto rounded-2xl py-16 px-4">
         <div className="mb-8 md:mb-12">
           <p className="text-center crd work text-lg md:text-xl">
             9 Years Expert{" "}

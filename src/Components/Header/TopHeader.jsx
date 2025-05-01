@@ -7,7 +7,7 @@ import { FiTwitter } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
 const TopHeader = () => {
   return (
-    <div className=" bg-[#e6eded] work hidden lg:block">
+    <div className=" bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] work hidden lg:block">
       <div className="w-full sm:w-11/12 lg:w-10/12 2xl:w-9/12 mx-auto">
         <div className=" flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center gap-5 py-2 ">

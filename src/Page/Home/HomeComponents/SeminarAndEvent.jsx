@@ -9,7 +9,7 @@ const SeminarAndEvent = () => {
         <div className="w-full px-4 sm:px-6 lg:px-0 lg:w-10/12 mx-auto">
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
             {/* Seminar Card */}
-            <div className="flex flex-col md:flex-row justify-between items-end bg-[#dff6ff] pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 md:gap-12 flex-1">
+            <div className="flex flex-col md:flex-row justify-between items-end bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 md:gap-12 flex-1">
               <div className="w-full md:w-auto">
                 <img
                   className="w-full md:w-[300px] lg:w-[400px] xl:w-[500px]"
@@ -36,7 +36,7 @@ const SeminarAndEvent = () => {
             </div>
 
             {/* Event Card */}
-            <div className="flex flex-col md:flex-row justify-between items-end bg-[#dff6ff] pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 flex-1">
+            <div className="flex flex-col md:flex-row justify-between items-end bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 flex-1">
               <div className="w-full md:w-auto">
                 <img
                   className="w-full md:w-[350px] lg:w-[450px] xl:w-[600px]"

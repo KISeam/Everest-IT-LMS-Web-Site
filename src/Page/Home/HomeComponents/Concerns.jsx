@@ -80,10 +80,10 @@ const Concerns = () => {
   );
 
   return (
-    <div className="bg-white py-12 md:py-12 relative">
-      <div className="relative w-11/12 lg:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-[#dff6ff]">
+    <div className="py-12 md:py-16 relative bg-white">
+      <div className="relative w-11/12 lg:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl">
         <div
-          className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-10"
+          className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-5"
           style={{
             backgroundImage: `url('https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/491185347_1085730833599336_6679927905642902823_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFMxqaiP5Vt0I1t6mXG8XC1dNnDbsVyffx02cNuxXJ9_MPyrTfVZTCx0vCN0yD0Cw46plaADOVLbLgLlZvYSbs_&_nc_ohc=OC5TdUjhyRMQ7kNvwHj744_&_nc_oc=AdlLq8prVk2-PMmbvhvxZ5JJ-svcd-XzkDbsbytax2LOvrG26hQPIxjJa-cd_ZN65Gg&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=cde8rQ94wWzg9tFxRh0r0g&oh=00_AfEXNuJppYlJjdSf1dPIGLW1sTGCxo5vvrocvFLGD1Rt_A&oe=68112840')`,
           }}
@@ -97,10 +97,10 @@ const Concerns = () => {
                 <label key={idx} className="fieldset-label dark:text-gray-600">
                   <p
                     onClick={() => handleCategoryChange(cat)}
-                    className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${
+                    className={`fieldset-label btn rounded-md cursor-pointer shadow-md transition dark:border-gray-300 ${
                       selectedCategory === cat
-                        ? "bg-[#141F51] text-white"
-                        : "bg-[#ecfcfb] dark:text-gray-500"
+                        ? "bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] text-white"
+                        : "bg-white text-gray-700 hover:bg-gray-50"
                     }`}
                   >
                     {cat}
@@ -122,7 +122,7 @@ const Concerns = () => {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.4, delay: index * 0.05 }}
                     >
-                      <div className="w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
+                      <div className="w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border border-gray-100 bg-white rounded-xl hover:shadow-md transition duration-300">
                         <img
                           src={image.src}
                           alt={`Image ${image.id}`}
@@ -138,13 +138,13 @@ const Concerns = () => {
 
               <button
                 onClick={handlePrev}
-                className="absolute cursor-pointer md:-left-15 -left-15 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#141F51] hover:text-white transition duration-500"
+                className="absolute cursor-pointer md:-left-15 -left-15 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-200 shadow-md p-3 rounded-full hover:bg-[#1e3a8a] hover:text-white transition duration-300"
               >
                 <FaChevronLeft className="cpr" size={18} />
               </button>
               <button
                 onClick={handleNext}
-                className="absolute md:-right-15 -right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#141F51] hover:text-white border border-gray-300 transition duration-500 cursor-pointer"
+                className="absolute md:-right-15 -right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#1e3a8a] hover:text-white border border-gray-200 transition duration-300 cursor-pointer"
               >
                 <FaChevronRight className="cpr" size={18} />
               </button>

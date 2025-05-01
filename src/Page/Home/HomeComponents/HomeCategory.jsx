@@ -1,24 +1,11 @@
 import React from 'react';
-
-import img1 from '../../../assets/img/gdIcon.png';
-import img2 from '../../../assets/img/webicon.png';
-import img3 from '../../../assets/img/icon5.png';
-import img4 from '../../../assets/img/icon6 (2).png';
-import img5 from '../../../assets/img/icon3.png';
-import img6 from '../../../assets/img/icon4.png';
-import img7 from '../../../assets/img/icon3.png';
-import img8 from '../../../assets/img/gdIcon.png';
 import { useNavigate } from 'react-router-dom';
 
 const categories = [
-    { img: img1, title: 'Art & Design', subtitle: 'Fun with Challeng' },
-    // { img: img2, title: 'Programming', subtitle: 'Code & Confident' },
-    { img: img3, title: 'Marketing', subtitle: 'Fun with Challeng' },
-    // { img: img4, title: 'Media & Flim', subtitle: 'Fun with Challeng' },
-    { img: img5, title: 'Networking & Server', subtitle: 'Fun with Challeng' },
-    { img: img6, title: 'Management', subtitle: 'Code & Confident' },
-    // { img: img7, title: 'Database', subtitle: 'Fun with Challeng' },
-    // { img: img8, title: 'Diploma', subtitle: 'Fun with Challeng' }
+    { img: "https://cdn-icons-png.flaticon.com/128/3940/3940120.png", title: 'Art & Design', subtitle: 'Fun with Challeng' },
+    { img: "https://cdn-icons-png.flaticon.com/128/7011/7011353.png", title: 'Marketing', subtitle: 'Fun with Challeng' },
+    { img: "https://cdn-icons-png.flaticon.com/128/3598/3598209.png", title: 'Networking & Server', subtitle: 'Fun with Challeng' },
+    { img: "https://cdn-icons-png.flaticon.com/128/10857/10857083.png", title: 'Management', subtitle: 'Code & Confident' },
 ];
 
 const HomeCategory = () => {

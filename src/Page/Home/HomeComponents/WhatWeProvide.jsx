@@ -5,13 +5,13 @@ import { FcCollaboration } from "react-icons/fc";
 const WhatWeProvide = () => {
   return (
     <div className="bg-white py-8 md:py-12 lg:py-16">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title={"Our Unique Learning Approach "}
         ></SectionHeading>
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-24">
+      <div className="px-4 sm:px-6 lg:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8 md:my-12">
           <div className="pl-6 py-8 md:pl-8 md:py-10 lg:pl-12 lg:py-12 bg-[#f0fdfc] rounded-2xl">
             <h2 className="outfit-semibold my-4 text-xl md:text-3xl font-bold text-black">
