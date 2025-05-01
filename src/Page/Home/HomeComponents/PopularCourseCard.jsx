@@ -81,20 +81,20 @@ const PopularCourseCard = () => {
         {/* Arrow Buttons */}
         <button
           onClick={handlePrev}
-          className="absolute cursor-pointer md:left-0  -left-4 lg:left-10 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#141F51] hover:text-white transition duration-500"
+          className="absolute cursor-pointer md:left-0 -left-4 2xl:left-20 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#141F51] hover:text-white transition duration-500"
         >
           <FaChevronLeft className="cpr" size={18} />
         </button>
 
         <button
           onClick={handleNext}
-          className="absolute -right-4 lg:right-10  cursor-pointer top-1/2 transform -translate-y-1/2 z-10 bg-white  shadow-md p-3 rounded-full hover:bg-[#141F51] hover:text-white border border-gray-300 transition duration-500"
+          className="absolute -right-4 2xl:right-20 cursor-pointer top-1/2 transform -translate-y-1/2 z-10 bg-white  shadow-md p-3 rounded-full hover:bg-[#141F51] hover:text-white border border-gray-300 transition duration-500"
         >
           <FaChevronRight className="cpr" size={18} />
         </button>
 
         {/* Course Cards */}
-        <div className="flex flex-wrap gap-8 justify-center transition-all duration-700 ease-in-out  md:px-12 ">
+        <div className="flex flex-wrap gap-8 justify-center transition-all duration-700 ease-in-out md:px-12 ">
           {visibleCourses.map((course) => (
             <div
               key={course.id}

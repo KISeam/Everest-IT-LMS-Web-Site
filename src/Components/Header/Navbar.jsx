@@ -81,7 +81,7 @@ const Navbar = () => {
           <Link to="/courses">
             <div className="mt-auto mb-6">
               <div className="flex gap-2 items-center justify-center bg-[#141F51] px-4 py-3 rounded-md cursor-pointer transition-all hover:brightness-110">
-                <LuBookOpenCheck className="text-2xl text-white font-semibold" />
+                
                 <p className="text-white text-[16px] font-semibold">
                   GetCourse
                 </p>
@@ -104,14 +104,11 @@ const Navbar = () => {
             <div className="flex gap-8">
               <Link
                 to="/"
-                className="md:border-r border-gray-400 flex gap-8 pr-8 2xl:pr-12"
+                className="flex gap-8 pr-8 2xl:pr-12"
               >
                 <img className="w-32 lg:w-44" src={logo} alt="Logo" />
               </Link>
-              <div className="hidden md:flex items-center gap-2 dark:text-black/70">
-                <BiCategory className="text-3xl" />
-                <p className="text-[18px]">Category</p>
-              </div>
+              
             </div>
 
             {/* Mobile menu button */}
@@ -152,7 +149,7 @@ const Navbar = () => {
             {" "}
             <div className="hidden lg:block">
               <div className="flex gap-2 text-xl items-center bg-[#141F51] px-4 py-2 rounded-md cursor-pointer transition-all hover:brightness-110">
-                <LuBookOpenCheck className="text-2xl text-white font-semibold" />
+                
                 <p className="text-white text-[16px] font-semibold">
                   GetCourse
                 </p>
