@@ -67,9 +67,9 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                 </p>
               </Link>
               <a
-                href={`https://wa.me/8801829818616?text=${encodeURIComponent(
-                  `আমি "${title}" কোর্সটি করতে চাই।`
-                )}`}
+                // href={`https://wa.me/8801829818616?text=${encodeURIComponent(
+                //   `আমি "${title}" কোর্সটি করতে চাই।`
+                // )}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
