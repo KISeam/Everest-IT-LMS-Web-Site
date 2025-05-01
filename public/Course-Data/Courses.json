@@ -12,12 +12,66 @@
     "instructorName": "Md. Ibna Zahan",
     "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
     "instructorPosition": "Senior System Admin",
-    "technology": "MongoDB, Express.js, React, Node.js, Redux, JWT",
+    "technology": "Windows Server, Active Directory, DNS, DHCP, Group Policy, Hyper-V",
     "courseStart": "12-March-2025",
     "duration": 16,
     "totalExam": 6,
     "totalProject": 5,
-    "details": "This comprehensive MERN stack course provides in-depth training on building modern web applications..."
+    "details": "This comprehensive Windows Server 2019 course provides in-depth training on server installation, configuration, and administration. Learn to manage Active Directory, implement network services (DNS, DHCP), configure storage solutions, and deploy virtualization with Hyper-V. The course prepares students for enterprise-level server management and Microsoft certification paths.",
+    "whatYoullLearn": [
+      "Install and configure Windows Server 2019 in enterprise environments",
+      "Implement and manage Active Directory Domain Services (AD DS)",
+      "Configure and troubleshoot DNS, DHCP, and other network services",
+      "Create and manage Group Policies for centralized administration",
+      "Deploy and manage Hyper-V virtualization",
+      "Implement storage solutions including Storage Spaces and RAID",
+      "Configure advanced network features and security",
+      "Monitor server performance and troubleshoot issues"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "72+ Live Class"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "12+ Industrial Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Practice lab support"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Review Class"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Microsoft Certification Preparation"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Job Placement Assistance"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Windows Server 2019",
+      "Hyper-V Manager",
+      "Active Directory",
+      "DNS Server",
+      "DHCP Server",
+      "Group Policy Management",
+      "PowerShell",
+      "Windows Admin Center"
+    ],
+    "jobPositions": [
+      "Windows Server Administrator",
+      "System Administrator",
+      "Network Administrator",
+      "IT Infrastructure Engineer",
+      "Cloud Administrator",
+      "Technical Support Engineer"
+    ]
   },
   {
     "id": 2,
@@ -37,7 +91,60 @@
     "duration": 12,
     "totalExam": 3,
     "totalProject": 5,
-    "details": "Master the tools and techniques of professional graphic design. Learn everything from branding to portfolio creation."
+    "details": "Master the tools and techniques of professional graphic design. Learn everything from branding to portfolio creation, including logo design, print media, digital graphics, and visual communication. Hands-on projects cover the complete design workflow using industry-standard Adobe Creative Suite applications.",
+    "whatYoullLearn": [
+      "Master Adobe Photoshop for image editing and manipulation",
+      "Create vector graphics and illustrations with Adobe Illustrator",
+      "Design professional layouts with Adobe InDesign",
+      "Develop strong branding and logo design skills",
+      "Understand color theory and typography principles",
+      "Create print-ready materials like business cards and brochures",
+      "Design for digital platforms including social media and web",
+      "Build a professional design portfolio"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "60+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "8+ Real-world Design Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio Review Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Design Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelance Opportunities"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Adobe XD",
+      "Figma",
+      "Canva",
+      "CorelDRAW"
+    ],
+    "jobPositions": [
+      "Graphic Designer",
+      "UI/UX Designer",
+      "Brand Identity Designer",
+      "Print Production Artist",
+      "Digital Illustrator",
+      "Marketing Designer"
+    ]
   },
   {
     "id": 3,
@@ -52,12 +159,66 @@
     "instructorName": "Md. Nazmul Hassan",
     "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
     "instructorPosition": "Digital Marketer & Trainer",
-    "technology": "SEO, SEM, Facebook Ads, Google Ads, Email Marketing",
+    "technology": "SEO, SEM, Facebook Ads, Google Ads, Email Marketing, Analytics",
     "courseStart": "18-March-2025",
     "duration": 10,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides professional-level training in digital marketing strategies, analytics, and tools. Students will learn to run campaigns, analyze data, optimize content, and use ad platforms effectively. Includes hands-on ad running, client simulation, and campaign reporting."
+    "details": "This professional digital marketing course covers comprehensive strategies including search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content marketing, and conversion optimization. Students will gain hands-on experience with Google Analytics, Ads platforms, and learn to create data-driven marketing campaigns that deliver measurable results.",
+    "whatYoullLearn": [
+      "Master SEO techniques to improve website rankings",
+      "Create and optimize Google Ads and Facebook Ads campaigns",
+      "Develop effective social media marketing strategies",
+      "Implement email marketing campaigns with high conversion rates",
+      "Analyze website traffic using Google Analytics",
+      "Create content marketing strategies that engage audiences",
+      "Develop complete digital marketing funnels",
+      "Measure ROI and optimize marketing budgets"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Training Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Real Marketing Campaigns"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Marketing Tools Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Case Study Reviews"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Digital Marketing Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Agency Placement Opportunities"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Google Analytics",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Google Search Console",
+      "SEMrush",
+      "Mailchimp",
+      "Canva",
+      "WordPress"
+    ],
+    "jobPositions": [
+      "Digital Marketing Specialist",
+      "SEO Analyst",
+      "PPC Specialist",
+      "Social Media Manager",
+      "Content Marketer",
+      "Email Marketing Specialist"
+    ]
   },
   {
     "id": 4,
@@ -72,14 +233,66 @@
     "instructorName": "Md. Iftekharul Islam",
     "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
     "instructorPosition": "Network Admin",
-    "technology": "WordPress, PHP, HTML, CSS, JavaScript, Theme Development, Custom Post Types",
+    "technology": "Cisco IOS, Routing Protocols, Switching, Network Security, IPv4/IPv6, WAN Technologies",
     "courseStart": "26-March-2025",
     "duration": 10,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides comprehensive training in WordPress theme development. Participants will learn to create custom themes from scratch, utilizing PHP, HTML, CSS, and JavaScript. The curriculum includes hands-on projects focusing on theme customization, responsive design, and integration of custom post types, preparing students for professional WordPress development roles."
+    "details": "This CCNA certification course provides foundational knowledge in networking concepts, IP addressing, Cisco device configuration, and troubleshooting. Students will learn to configure routers and switches, implement network security, and understand WAN technologies. The course prepares participants for the Cisco CCNA certification exam and real-world networking challenges.",
+    "whatYoullLearn": [
+      "Understand networking fundamentals and OSI/TCP models",
+      "Configure and troubleshoot Cisco routers and switches",
+      "Implement IPv4 and IPv6 addressing schemes",
+      "Configure routing protocols like OSPF and EIGRP",
+      "Implement VLANs and inter-VLAN routing",
+      "Configure network security features like ACLs",
+      "Understand WAN technologies and VPNs",
+      "Prepare for the CCNA certification exam"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "65+ Live Networking Labs"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "10+ Network Configuration Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Cisco Packet Tracer Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Exam Preparation Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "CCNA Exam Voucher"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Network Engineer Placement"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Cisco IOS",
+      "Cisco Packet Tracer",
+      "GNS3",
+      "Wireshark",
+      "PuTTY",
+      "SolarWinds",
+      "PRTG Network Monitor"
+    ],
+    "jobPositions": [
+      "Network Administrator",
+      "Network Engineer",
+      "Systems Engineer",
+      "IT Support Specialist",
+      "Network Technician",
+      "Security Analyst"
+    ]
   },
-
   {
     "id": 5,
     "title": "MikroTik with ISP Setup",
@@ -93,17 +306,69 @@
     "instructorName": "Titas Sarker",
     "instructorImg": "https://www.theeverestitbd.com/images/instructor/titas.png",
     "instructorPosition": "MTCNA, MTCRE",
-    "technology": "React, Hooks, Context API, Redux, React Router, Firebase",
+    "technology": "MikroTik RouterOS, Bandwidth Management, VPN Configuration, Firewall, Hotspot Setup",
     "courseStart": "16-March-2025",
     "duration": 10,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides advanced-level training on React..."
+    "details": "This specialized course focuses on MikroTik router configuration and ISP network setup. Participants will learn advanced routing, bandwidth management, VPN services, firewall configuration, and hotspot solutions. The training includes practical ISP setup scenarios, preparing students for MikroTik certification and real-world network administration roles.",
+    "whatYoullLearn": [
+      "Configure and manage MikroTik RouterOS devices",
+      "Implement bandwidth management and QoS policies",
+      "Set up secure VPN services (PPTP, L2TP, SSTP, OpenVPN)",
+      "Configure advanced firewall and NAT rules",
+      "Implement hotspot gateway with user authentication",
+      "Set up wireless networks and bridge configurations",
+      "Monitor network traffic and troubleshoot issues",
+      "Prepare for MikroTik MTCNA certification"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "55+ Live Configuration Labs"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "8+ ISP Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "MikroTik Hardware Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Real-world Case Studies"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "MikroTik Certification Prep"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "ISP Job Opportunities"
+      }
+    ],
+    "softwareYoullLearn": [
+      "MikroTik RouterOS",
+      "Winbox",
+      "Wireshark",
+      "BandwidthD",
+      "PRTG",
+      "The Dude"
+    ],
+    "jobPositions": [
+      "MikroTik Administrator",
+      "Network Engineer",
+      "ISP Technician",
+      "Wireless Network Engineer",
+      "Network Security Specialist",
+      "Systems Administrator"
+    ]
   },
   {
     "id": 6,
     "title": "JUNIPER JunOS Course",
-    "category": "Art & Design",
+    "category": "Networking & Server",
     "type": "Offline",
     "image": "https://www.theeverestitbd.com/images/course/cu-4.jpg",
     "fee": "24000৳",
@@ -113,12 +378,64 @@
     "instructorName": "Md. Iftekharul Islam",
     "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
     "instructorPosition": "Trainer (Cisco & Juniper)",
-    "technology": "Figma, Adobe XD, UX Research, Wireframing, Prototyping, Storyboarding",
+    "technology": "JunOS CLI, Routing Protocols, Switching, Security Policies, Juniper Hardware",
     "courseStart": "25-March-2025",
     "duration": 10,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This hands-on course focuses on user-centered design principles, covering UX research, wireframing, prototyping, and visual design using tools like Figma and Adobe XD. Students will learn to create intuitive and responsive interfaces through practical projects and real-world case studies, guided by industry expert Md. Zayed Uddin."
+    "details": "This professional Juniper Networks course provides comprehensive training on JunOS operating system, covering configuration and management of Juniper routers and switches. Students will learn JunOS CLI, routing protocols (OSPF, BGP), switching technologies, and security policies. The course prepares participants for Juniper certification exams and enterprise network administration roles.",
+    "whatYoullLearn": [
+      "Navigate and use JunOS CLI effectively",
+      "Configure and manage Juniper routers and switches",
+      "Implement OSPF and BGP routing protocols",
+      "Configure VLANs and switching features",
+      "Implement security policies and firewall filters",
+      "Troubleshoot Juniper network devices",
+      "Configure VPN services on Juniper devices",
+      "Prepare for Juniper certification exams"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "60+ Hands-on Labs"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "10+ Juniper Configuration Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Juniper Device Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Enterprise Network Scenarios"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Juniper Certification Prep"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Enterprise Network Jobs"
+      }
+    ],
+    "softwareYoullLearn": [
+      "JunOS CLI",
+      "J-Web Interface",
+      "Wireshark",
+      "PRTG",
+      "SolarWinds",
+      "SecureCRT"
+    ],
+    "jobPositions": [
+      "Juniper Network Engineer",
+      "Network Administrator",
+      "Security Engineer",
+      "Data Center Engineer",
+      "Network Architect",
+      "Systems Engineer"
+    ]
   },
   {
     "id": 7,
@@ -133,11 +450,65 @@
     "instructorName": "Azman Mollah",
     "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
     "instructorPosition": "Senior Web Developer",
-    "technology": "Adobe Premiere Pro, After Effects, Blender, Mixamo AI, TTS AI, Color Grading",
+    "technology": "HTML5, CSS3, JavaScript, PHP, MySQL, WordPress, Bootstrap",
     "courseStart": "28-March-2025",
     "duration": 12,
     "totalExam": 4,
     "totalProject": 5,
-    "details": "This course offers comprehensive training in video editing and motion graphics, integrating AI tools to enhance creativity and efficiency. Students will learn to create dynamic visuals using Adobe Premiere Pro, After Effects, and Blender, incorporating AI technologies like Mixamo for character animation and Text-to-Speech (TTS) for audio enhancements. The curriculum includes projects such as social media ads, animated explainers, and promotional videos, preparing students for the evolving demands of the media industry."
+    "details": "This complete web development course covers both front-end and back-end technologies. Students will learn to build responsive websites using HTML5, CSS3, and JavaScript, then progress to server-side programming with PHP and MySQL. The curriculum includes WordPress theme development, e-commerce integration, and deployment strategies, preparing students for professional web development careers.",
+    "whatYoullLearn": [
+      "Build responsive websites with HTML5, CSS3, and JavaScript",
+      "Develop dynamic web applications with PHP and MySQL",
+      "Create custom WordPress themes and plugins",
+      "Implement front-end frameworks like Bootstrap",
+      "Work with APIs and AJAX for dynamic content",
+      "Deploy websites to live servers",
+      "Implement security best practices",
+      "Develop e-commerce solutions"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "80+ Coding Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "15+ Web Development Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Development Environment Setup"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Code Review Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Web Development Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Developer Job Placement"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Visual Studio Code",
+      "XAMPP/WAMP",
+      "Git/GitHub",
+      "Chrome DevTools",
+      "MySQL Workbench",
+      "WordPress",
+      "Bootstrap",
+      "jQuery"
+    ],
+    "jobPositions": [
+      "Front-end Developer",
+      "Back-end Developer",
+      "Full Stack Developer",
+      "WordPress Developer",
+      "Web Application Developer",
+      "UI Developer"
+    ]
   }
 ]

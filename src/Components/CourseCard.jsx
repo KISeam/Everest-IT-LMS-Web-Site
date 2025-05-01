@@ -66,6 +66,20 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                   Course Details
                 </p>
               </Link>
+              <a
+                href={`https://wa.me/8801829818616?text=${encodeURIComponent(
+                  `আমি "${title}" কোর্সটি করতে চাই।`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="flex gap-1 text-xl items-center border border-[#141F51] px-4 py-2 mr-6 rounded-md hover:bg-[#e0f7f5] cursor-pointer transition">
+                  <FaWhatsapp className="text-2xl text-[#141F51] font-semibold" />
+                  <p className="text-[#141F51] work text-md tracking-tight text-[15px]">
+                    Get Course
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
