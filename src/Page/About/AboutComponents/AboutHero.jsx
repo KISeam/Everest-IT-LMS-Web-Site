@@ -6,11 +6,11 @@ const AboutHero = () => {
       <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="overflow-hidden ">
-              <div className="h-full w-full">
+            <div className="overflow-hidden">
+              <div className="h-full rounded-lg border border-gray-200 overflow-hidden">
                 <img
-                  className="rounded-lg border border-gray-200 h-full w-[700px]"
-                  src="https://img.freepik.com/premium-photo/collage-photos-people-with-headphones-woman-wearing-headset_1380714-13798.jpg?semt=ais_hybrid&w=740"
+                  className="object-cover h-full w-full"
+                  src="https://img.freepik.com/premium-photo/teams-sharing-best-practices-virtual-meeting_1170794-336447.jpg?semt=ais_hybrid&w=740"
                   alt=""
                 />
               </div>
