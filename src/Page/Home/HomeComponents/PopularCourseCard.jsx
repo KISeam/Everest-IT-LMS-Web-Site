@@ -64,10 +64,10 @@ const PopularCourseCard = () => {
         {courseCategorys.map((cat, idx) => (
           <label
             key={idx}
-            className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none ${
+            className={`fieldset-label btn rounded-md dark:border-gray-300 shadow-md dark:shadow-none ${
               selectedCategory === (cat.name || cat)
                 ? "bg-[#141F51] text-white"
-                : "bg-[#ecfcfb] dark:text-gray-500"
+                : "bg-white text-gray-700 hover:bg-gray-50"
             }`}
             onClick={() => setSelectedCategory(cat.name)}
           >

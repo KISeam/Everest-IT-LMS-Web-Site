@@ -99,7 +99,7 @@ const Concerns = () => {
                     onClick={() => handleCategoryChange(cat)}
                     className={`fieldset-label btn rounded-md cursor-pointer shadow-md transition dark:border-gray-300 ${
                       selectedCategory === cat
-                        ? "bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] text-white"
+                        ? "bg-[#141F51] text-white"
                         : "bg-white text-gray-700 hover:bg-gray-50"
                     }`}
                   >
