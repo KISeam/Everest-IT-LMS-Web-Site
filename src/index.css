@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Poppins Font */
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+/* Roboto Font */
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.caveat {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.work {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.outfit-semibold {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cpr {
+  color: #ffd236;
+}
+.csd {
+  color: #08123a;
+}
+.crd {
+  color: #414042;
+}
+
