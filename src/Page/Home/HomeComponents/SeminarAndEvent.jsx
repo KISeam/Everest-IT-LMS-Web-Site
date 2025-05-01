@@ -1,63 +1,36 @@
 import React from "react";
-import img1 from "../../../assets/img/heroSeminar.png";
 import { LuBookOpenCheck } from "react-icons/lu";
 
 const SeminarAndEvent = () => {
   return (
     <>
-      <div className="bg-white">
-        <div className="w-full px-4 sm:px-6 lg:px-0 lg:w-10/12 mx-auto">
-          <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
-            {/* Seminar Card */}
-            <div className="flex flex-col md:flex-row justify-between items-end bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 md:gap-12 flex-1">
-              <div className="w-full md:w-auto">
-                <img
-                  className="w-full md:w-[300px] lg:w-[400px] xl:w-[500px]"
-                  src={img1}
-                  alt="Seminar mentor"
-                />
+      <div className="bg-white py-12 md:py-16">
+        <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 lg:px-12 rounded-2xl bg-[#FAF0F0] shadow-xl">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
+            <div className="space-y-6 w-full lg:w-1/2">
+              <div className="space-y-3">
+                <h1 className="csd text-xl md:text-3xl lg:text-5xl font-semibold outfit-semibold work">
+                  Join Our Free Seminars
+                </h1>
+                <p className="crd work text-base lg:text-lg">
+                  Need guidelines to choose a suitable course? Join our free
+                  seminars to consult with our experts, they will guide you to
+                  pick the course that matches your interest and discuss the
+                  career prospects.
+                </p>
               </div>
-              <div className="w-full md:w-auto flex h-full items-center">
-                <div>
-                  <h2 className="outfit-semibold text-xl sm:text-2xl mb-4 dark:text-black">
-                    Join Our Seminar
-                  </h2>
-                  <p className="work text-sm sm:text-[14px] dark:text-black">
-                    Top instructors from around the world millions of student
-                  </p>
-                  <div className="flex gap-2 text-xl mt-4 mb-8 w-full sm:w-44 items-center justify-center sm:justify-start border bg-[#141F51] border-[#141F51] px-4 py-2 rounded-md">
-                    <LuBookOpenCheck className="text-md font-semibold text-white" />
-                    <p className="work tracking-tight text-[15px] text-white">
-                      Apply Now
-                    </p>
-                  </div>
-                </div>
+              <div className="text-xl mt-4 mb-8 border bg-[#141F51] border-[#141F51] px-4 py-2 rounded-md w-fit">
+                <p className="work tracking-tight text-[15px] text-white">
+                  Free Seminar Schedule
+                </p>
               </div>
             </div>
 
-            {/* Event Card */}
-            <div className="flex flex-col md:flex-row justify-between items-end bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 flex-1">
-              <div className="w-full md:w-auto">
-                <img
-                  className="w-full md:w-[350px] lg:w-[450px] xl:w-[600px]"
-                  src={img1}
-                  alt="Event"
-                />
-              </div>
-              <div className="w-full md:w-auto">
-                <h2 className="outfit-semibold text-xl sm:text-2xl mb-4 dark:text-black">
-                  Enjoy Our Events
-                </h2>
-                <p className="work text-sm sm:text-[14px] dark:text-black">
-                  Top instructors from around the world millions of student
-                </p>
-                <div className="flex gap-2 text-xl mt-4 mb-8 w-full sm:w-44 items-center justify-center sm:justify-start border bg-[#141F51] border-[#141F51] px-4 py-2 rounded-md">
-                  <LuBookOpenCheck className="text-md font-semibold text-white" />
-                  <p className="work tracking-tight text-[15px] text-white">
-                    Course Details
-                  </p>
-                </div>
-              </div>
+            <div className="w-full lg:w-1/2 rounded-xl overflow-hidden">
+              <img
+                src="https://img.freepik.com/free-photo/everyone-is-smiling-listens-group-people-business-conference-modern-classroom-daytime_146671-16288.jpg?t=st=1746097525~exp=1746101125~hmac=d00f7f97e05c93e3c629809989082012840685eed7f05c4cad55c3eddcc706d9&w=996"
+                alt=""
+              />
             </div>
           </div>
         </div>

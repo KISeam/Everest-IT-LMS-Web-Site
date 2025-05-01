@@ -81,7 +81,7 @@ const Concerns = () => {
 
   return (
     <div className="py-12 md:py-16 relative bg-white">
-      <div className="relative w-11/12 lg:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-gradient-to-br from-[#ffffff] to-[#f0f4f8] shadow-xl">
+      <div className="relative w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-[#FAF0F0] shadow-xl">
         <div
           className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-5"
           style={{

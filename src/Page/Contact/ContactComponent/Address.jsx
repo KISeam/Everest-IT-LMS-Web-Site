@@ -6,105 +6,109 @@ import { MdOutlineWatchLater } from "react-icons/md";
 
 const Address = () => {
   return (
-    <Box 
+    <Box
       component="section"
       sx={{
         py: { xs: 4, md: 5 },
         px: { xs: 2, sm: 4 },
-        display: 'flex',
-        justifyContent: 'center'
+        display: "flex",
+        justifyContent: "center",
       }}
     >
       <Box
         sx={{
-          width: '100%',
-          maxWidth: { xs: '100%', lg: 1200 },
-          mx: 'auto',
+          width: "100%",
+          maxWidth: { xs: "100%", lg: 1200 },
+          mx: "auto",
           p: { xs: 3, md: 5 },
-          border: '1px solid',
-          borderColor: 'divider',
+          border: "1px solid",
+          borderColor: "divider",
           borderRadius: 4,
           boxShadow: 2,
-          backgroundColor: 'background.paper'
+          backgroundColor: "background.paper",
         }}
       >
         <Box mb={{ xs: 4, md: 6 }}>
-          <Typography 
-            variant="h4" 
+          <Typography
+            variant="h4"
             component="h2"
             sx={{
               fontWeight: 700,
               mb: 2,
-              color: 'text.primary',
-              fontSize: { xs: '1.75rem', md: '2.125rem' }
+              color: "text.primary",
+              fontSize: { xs: "1.75rem", md: "2.125rem" },
             }}
           >
             Office Information
           </Typography>
-          <Typography 
+          <Typography
             variant="body1"
             sx={{
-              color: 'text.secondary',
-              fontSize: { xs: '0.875rem', sm: '1rem' }
+              color: "text.secondary",
+              fontSize: { xs: "0.875rem", sm: "1rem" },
             }}
           >
-            Completely recapitalize 24/7 communities via standards compliant metrics whereas.
+            Completely recapitalize 24/7 communities via standards compliant
+            metrics whereas.
           </Typography>
         </Box>
 
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: { xs: 4, md: 5 }
+            display: "flex",
+            flexDirection: "column",
+            gap: { xs: 4, md: 5 },
           }}
         >
           {/* Phone & Email */}
           <Box
             sx={{
-              display: 'flex',
-              alignItems: 'flex-start',
+              display: "flex",
+              alignItems: "flex-start",
               gap: { xs: 3, md: 4 },
               pb: { xs: 4, md: 5 },
-              borderBottom: '1px solid',
-              borderColor: 'divider',
-              '&:hover .icon-box': {
-                backgroundColor: '#141F51',
-                color: 'primary.contrastText'
-              }
+              borderBottom: "1px solid",
+              borderColor: "divider",
+              "&:hover .icon-box": {
+                backgroundColor: "#141F51",
+                color: "primary.contrastText",
+              },
             }}
           >
             <Box
               className="icon-box"
               sx={{
                 flexShrink: 0,
-                border: '1px solid',
-                borderColor: 'divider',
+                border: "1px solid",
+                borderColor: "divider",
                 borderRadius: 2,
                 p: 2,
-                transition: 'all 0.3s ease',
-                color: 'text.secondary'
+                transition: "all 0.3s ease",
+                color: "text.secondary",
               }}
             >
-              <FaPhoneAlt style={{ fontSize: '1.5rem' }} />
+              <FaPhoneAlt style={{ fontSize: "1.5rem" }} />
             </Box>
             <Box>
-              <Typography 
-                variant="h6" 
+              <Typography
+                variant="h6"
                 component="h3"
                 sx={{
                   fontWeight: 600,
-                  mb: 1,
-                  color: 'text.primary'
+                  mb: 0,
+                  color: "text.primary",
                 }}
               >
                 Phone Number & Email
               </Typography>
-              <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                +88 01321231802
+              <Typography variant="body1" sx={{ color: "text.secondary" }}>
+                +8801776057078
               </Typography>
-              <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                info@bdcallingacademy.com
+              <Typography variant="body1" sx={{ color: "text.secondary" }}>
+                +8801991155543
+              </Typography>
+              <Typography variant="body1" sx={{ color: "text.secondary" }}>
+                theeverestit@gmail.com
               </Typography>
             </Box>
           </Box>
@@ -112,46 +116,47 @@ const Address = () => {
           {/* Address */}
           <Box
             sx={{
-              display: 'flex',
-              alignItems: 'flex-start',
+              display: "flex",
+              alignItems: "flex-start",
               gap: { xs: 3, md: 4 },
               pb: { xs: 4, md: 5 },
-              borderBottom: '1px solid',
-              borderColor: 'divider',
-              '&:hover .icon-box': {
-                backgroundColor: '#141F51',
-                color: 'primary.contrastText'
-              }
+              borderBottom: "1px solid",
+              borderColor: "divider",
+              "&:hover .icon-box": {
+                backgroundColor: "#141F51",
+                color: "primary.contrastText",
+              },
             }}
           >
             <Box
               className="icon-box"
               sx={{
                 flexShrink: 0,
-                border: '1px solid',
-                borderColor: 'divider',
+                border: "1px solid",
+                borderColor: "divider",
                 borderRadius: 2,
                 p: 2,
-                transition: 'all 0.3s ease',
-                color: 'text.secondary'
+                transition: "all 0.3s ease",
+                color: "text.secondary",
               }}
             >
-              <FaLocationDot style={{ fontSize: '1.5rem' }} />
+              <FaLocationDot style={{ fontSize: "1.5rem" }} />
             </Box>
             <Box>
-              <Typography 
-                variant="h6" 
+              <Typography
+                variant="h6"
                 component="h3"
                 sx={{
                   fontWeight: 600,
                   mb: 1,
-                  color: 'text.primary'
+                  color: "text.primary",
                 }}
               >
                 Our Office Address
               </Typography>
-              <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Daisy Garden, House 14, Block A, Banasree, main road, Dhaka-1219
+              <Typography variant="body1" sx={{ color: "text.secondary" }}>
+                Head Office: 888/1, 3rd Floor, Hazi Ashraf ali market East
+                Shewrapara, Dhaka-1216, Bangladesh
               </Typography>
             </Box>
           </Box>
@@ -159,43 +164,43 @@ const Address = () => {
           {/* Work Time */}
           <Box
             sx={{
-              display: 'flex',
-              alignItems: 'flex-start',
+              display: "flex",
+              alignItems: "flex-start",
               gap: { xs: 3, md: 4 },
-              '&:hover .icon-box': {
-                backgroundColor: '#141F51',
-                color: 'primary.contrastText'
-              }
+              "&:hover .icon-box": {
+                backgroundColor: "#141F51",
+                color: "primary.contrastText",
+              },
             }}
           >
             <Box
               className="icon-box"
               sx={{
                 flexShrink: 0,
-                border: '1px solid',
-                borderColor: 'divider',
+                border: "1px solid",
+                borderColor: "divider",
                 borderRadius: 2,
                 p: 2,
-                transition: 'all 0.3s ease',
-                color: 'text.secondary'
+                transition: "all 0.3s ease",
+                color: "text.secondary",
               }}
             >
-              <MdOutlineWatchLater style={{ fontSize: '1.5rem' }} />
+              <MdOutlineWatchLater style={{ fontSize: "1.5rem" }} />
             </Box>
             <Box>
-              <Typography 
-                variant="h6" 
+              <Typography
+                variant="h6"
                 component="h3"
                 sx={{
                   fontWeight: 600,
                   mb: 1,
-                  color: 'text.primary'
+                  color: "text.primary",
                 }}
               >
                 Official Work Time
               </Typography>
-              <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Saturday - Friday 9:00 am to 6:00 pm
+              <Typography variant="body1" sx={{ color: "text.secondary" }}>
+                Saturday to Thursday - 9 am to 6 pm
               </Typography>
             </Box>
           </Box>
