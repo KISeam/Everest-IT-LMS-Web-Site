@@ -153,7 +153,7 @@ const PopularCourseCard = () => {
                       Course Details
                     </p>
                   </Link>
-                  <a
+                  {/* <a
                     href={`https://wa.me/8801829818616?text=${encodeURIComponent(
                       `আমি "${course.title}" কোর্সটি করতে চাই।`
                     )}`}
@@ -166,7 +166,7 @@ const PopularCourseCard = () => {
                         Get Course
                       </p>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
