@@ -1,6 +1,223 @@
 [
   {
     "id": 1,
+    "title": "Graphic Design for Freelancing",
+    "category": "Art & Design",
+    "type": "Online",
+    "image": "https://www.theeverestitbd.com/images/course/cu-1.jpg",
+    "fee": "18000৳",
+    "rating": 4.8,
+    "totalRating": 95,
+    "totalStudentsEnroll": 220,
+    "instructorName": "Ayesha Rahman",
+    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
+    "instructorPosition": "Freelance Graphic Designer",
+    "technology": "Adobe Photoshop, Illustrator, Canva, Figma, Branding, Portfolio Development",
+    "courseStart": "5-April-2025",
+    "duration": 360,
+    "totalExam": 3,
+    "totalProject": 4,
+    "details": "A specialized course focused on building freelance graphic design skills. Learn to create client-ready designs, develop a professional portfolio, and manage freelance workflows. Topics include logo design, social media graphics, print media, and client communication strategies.",
+    "whatYoullLearn": [
+      "Create high-quality designs for logos, branding, and marketing materials",
+      "Develop a professional portfolio to showcase freelance work",
+      "Master Adobe Creative Suite tools for freelance projects",
+      "Design engaging social media and digital content",
+      "Understand client briefs and deliver effective design solutions",
+      "Set pricing, manage contracts, and market freelance services",
+      "Optimize workflows for efficient project delivery",
+      "Build a personal brand as a freelance designer"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Canva",
+      "Figma",
+      "Adobe XD",
+      "CorelDRAW"
+    ],
+    "jobPositions": [
+      "Freelance Graphic Designer",
+      "Logo Designer",
+      "Social Media Designer",
+      "Print Media Specialist",
+      "UI/UX Freelancer",
+      "Brand Identity Designer"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Digital Marketing for Freelancing",
+    "category": "Marketing",
+    "type": "Online",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbCy3wY4i0T4bjPxvbKZK4dv3JvysYGSS_w&s",
+    "fee": "20000৳",
+    "rating": 4.7,
+    "totalRating": 88,
+    "totalStudentsEnroll": 190,
+    "instructorName": "Farhan Ahmed",
+    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
+    "instructorPosition": "Freelance Digital Marketer",
+    "technology": "SEO, Google Ads, Facebook Ads, Email Marketing, Analytics, Content Strategy",
+    "courseStart": "10-April-2025",
+    "duration": 360,
+    "totalExam": 2,
+    "totalProject": 3,
+    "details": "A practical course tailored for freelance digital marketers. Learn to acquire clients, run campaigns, and scale freelance services. Topics include SEO, paid ads, email marketing, analytics, and client management tools.",
+    "whatYoullLearn": [
+      "Run SEO audits and optimize websites for clients",
+      "Create profitable Google and Facebook ad campaigns",
+      "Develop email marketing strategies for client retention",
+      "Analyze campaign performance using Google Analytics",
+      "Craft compelling pitches and proposals for clients",
+      "Automate marketing workflows for efficiency",
+      "Manage multiple freelance projects simultaneously",
+      "Build a personal brand as a digital marketing freelancer"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "40+ Live Marketing Workshops"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "5+ Client Campaign Simulations"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Marketing Tools Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Client Pitch Practice Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Marketing Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelance Client Acquisition Guide"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Google Analytics",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Mailchimp",
+      "Canva",
+      "Trello",
+      "WordPress"
+    ],
+    "jobPositions": [
+      "Freelance Digital Marketer",
+      "SEO Specialist",
+      "PPC Manager",
+      "Social Media Consultant",
+      "Email Marketing Freelancer",
+      "Content Strategist"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "2D Animation for Freelancing",
+    "category": "Art & Design",
+    "type": "Online",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJqFaFrTLJOoZQtzqygr7Nh1kg9wqb2kzxyQ&s",
+    "fee": "22000৳",
+    "rating": 4.8,
+    "totalRating": 92,
+    "totalStudentsEnroll": 170,
+    "instructorName": "Rahul Das",
+    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
+    "instructorPosition": "2D Animation Specialist",
+    "technology": "Adobe Animate, After Effects, Storyboarding, Character Design, Motion Graphics",
+    "courseStart": "15-April-2025",
+    "duration": 360,
+    "totalExam": 3,
+    "totalProject": 5,
+    "details": "A hands-on course for aspiring freelance 2D animators. Learn to create animated explainer videos, social media content, and client projects. Topics include character design, motion graphics, and freelance workflow management.",
+    "whatYoullLearn": [
+      "Create animated explainer videos for clients",
+      "Design characters and storyboards for animations",
+      "Master Adobe Animate and After Effects",
+      "Produce motion graphics for social media and ads",
+      "Edit and export animations in multiple formats",
+      "Pitch animation projects to clients",
+      "Manage freelance animation workflows",
+      "Build a portfolio of animated projects"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "60+ Animation Tutorials"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "7+ Client Animation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Animation Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio Review Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Animation Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelance Project Support"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Animate",
+      "Adobe After Effects",
+      "Adobe Photoshop",
+      "Toon Boom Harmony",
+      "Blender (Basic)",
+      "Audacity"
+    ],
+    "jobPositions": [
+      "Freelance 2D Animator",
+      "Explainer Video Creator",
+      "Motion Graphics Designer",
+      "Character Designer",
+      "Social Media Animation Specialist",
+      "Storyboard Artist"
+    ]
+  },
+  {
+    "id": 4,
     "title": "Windows Server 2019",
     "category": "Networking & Server",
     "type": "Offline",
@@ -74,7 +291,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Graphic Design",
     "category": "Art & Design",
     "type": "Offline",
@@ -147,7 +364,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Digital Marketing",
     "category": "Marketing",
     "type": "Offline",
@@ -221,7 +438,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "CCNA (Cisco Certified Network Associate) Course",
     "category": "Networking & Server",
     "type": "Offline",
@@ -294,7 +511,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "MikroTik with ISP Setup",
     "category": "Networking & Server",
     "type": "Offline",
@@ -366,7 +583,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "JUNIPER JunOS Course",
     "category": "Networking & Server",
     "type": "Offline",
@@ -438,7 +655,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Professional Web Development",
     "category": "Web Development",
     "type": "Offline",
@@ -509,223 +726,6 @@
       "WordPress Developer",
       "Web Application Developer",
       "UI Developer"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Graphic Design for Freelancing",
-    "category": "Art & Design",
-    "type": "Online",
-    "image": "https://www.theeverestitbd.com/images/course/cu-1.jpg",
-    "fee": "18000৳",
-    "rating": 4.8,
-    "totalRating": 95,
-    "totalStudentsEnroll": 220,
-    "instructorName": "Ayesha Rahman",
-    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
-    "instructorPosition": "Freelance Graphic Designer",
-    "technology": "Adobe Photoshop, Illustrator, Canva, Figma, Branding, Portfolio Development",
-    "courseStart": "5-April-2025",
-    "duration": 360,
-    "totalExam": 3,
-    "totalProject": 4,
-    "details": "A specialized course focused on building freelance graphic design skills. Learn to create client-ready designs, develop a professional portfolio, and manage freelance workflows. Topics include logo design, social media graphics, print media, and client communication strategies.",
-    "whatYoullLearn": [
-      "Create high-quality designs for logos, branding, and marketing materials",
-      "Develop a professional portfolio to showcase freelance work",
-      "Master Adobe Creative Suite tools for freelance projects",
-      "Design engaging social media and digital content",
-      "Understand client briefs and deliver effective design solutions",
-      "Set pricing, manage contracts, and market freelance services",
-      "Optimize workflows for efficient project delivery",
-      "Build a personal brand as a freelance designer"
-    ],
-    "courseIncludes": [
-      {
-        "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
-      },
-      {
-        "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
-      },
-      {
-        "icon": "TfiCup",
-        "text": "Freelance Certification"
-      },
-      {
-        "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
-      }
-    ],
-    "softwareYoullLearn": [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Canva",
-      "Figma",
-      "Adobe XD",
-      "CorelDRAW"
-    ],
-    "jobPositions": [
-      "Freelance Graphic Designer",
-      "Logo Designer",
-      "Social Media Designer",
-      "Print Media Specialist",
-      "UI/UX Freelancer",
-      "Brand Identity Designer"
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Digital Marketing for Freelancing",
-    "category": "Marketing",
-    "type": "Online",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbCy3wY4i0T4bjPxvbKZK4dv3JvysYGSS_w&s",
-    "fee": "20000৳",
-    "rating": 4.7,
-    "totalRating": 88,
-    "totalStudentsEnroll": 190,
-    "instructorName": "Farhan Ahmed",
-    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
-    "instructorPosition": "Freelance Digital Marketer",
-    "technology": "SEO, Google Ads, Facebook Ads, Email Marketing, Analytics, Content Strategy",
-    "courseStart": "10-April-2025",
-    "duration": 360,
-    "totalExam": 2,
-    "totalProject": 3,
-    "details": "A practical course tailored for freelance digital marketers. Learn to acquire clients, run campaigns, and scale freelance services. Topics include SEO, paid ads, email marketing, analytics, and client management tools.",
-    "whatYoullLearn": [
-      "Run SEO audits and optimize websites for clients",
-      "Create profitable Google and Facebook ad campaigns",
-      "Develop email marketing strategies for client retention",
-      "Analyze campaign performance using Google Analytics",
-      "Craft compelling pitches and proposals for clients",
-      "Automate marketing workflows for efficiency",
-      "Manage multiple freelance projects simultaneously",
-      "Build a personal brand as a digital marketing freelancer"
-    ],
-    "courseIncludes": [
-      {
-        "icon": "RiLiveLine",
-        "text": "40+ Live Marketing Workshops"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "5+ Client Campaign Simulations"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Marketing Tools Access"
-      },
-      {
-        "icon": "MdLiveTv",
-        "text": "Client Pitch Practice Sessions"
-      },
-      {
-        "icon": "TfiCup",
-        "text": "Freelance Marketing Certification"
-      },
-      {
-        "icon": "MdWorkOutline",
-        "text": "Freelance Client Acquisition Guide"
-      }
-    ],
-    "softwareYoullLearn": [
-      "Google Analytics",
-      "Google Ads",
-      "Facebook Ads Manager",
-      "Mailchimp",
-      "Canva",
-      "Trello",
-      "WordPress"
-    ],
-    "jobPositions": [
-      "Freelance Digital Marketer",
-      "SEO Specialist",
-      "PPC Manager",
-      "Social Media Consultant",
-      "Email Marketing Freelancer",
-      "Content Strategist"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "2D Animation for Freelancing",
-    "category": "Art & Design",
-    "type": "Online",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJqFaFrTLJOoZQtzqygr7Nh1kg9wqb2kzxyQ&s",
-    "fee": "22000৳",
-    "rating": 4.8,
-    "totalRating": 92,
-    "totalStudentsEnroll": 170,
-    "instructorName": "Rahul Das",
-    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
-    "instructorPosition": "2D Animation Specialist",
-    "technology": "Adobe Animate, After Effects, Storyboarding, Character Design, Motion Graphics",
-    "courseStart": "15-April-2025",
-    "duration": 360,
-    "totalExam": 3,
-    "totalProject": 5,
-    "details": "A hands-on course for aspiring freelance 2D animators. Learn to create animated explainer videos, social media content, and client projects. Topics include character design, motion graphics, and freelance workflow management.",
-    "whatYoullLearn": [
-      "Create animated explainer videos for clients",
-      "Design characters and storyboards for animations",
-      "Master Adobe Animate and After Effects",
-      "Produce motion graphics for social media and ads",
-      "Edit and export animations in multiple formats",
-      "Pitch animation projects to clients",
-      "Manage freelance animation workflows",
-      "Build a portfolio of animated projects"
-    ],
-    "courseIncludes": [
-      {
-        "icon": "RiLiveLine",
-        "text": "60+ Animation Tutorials"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "7+ Client Animation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Animation Software Lab Access"
-      },
-      {
-        "icon": "MdLiveTv",
-        "text": "Portfolio Review Sessions"
-      },
-      {
-        "icon": "TfiCup",
-        "text": "Freelance Animation Certification"
-      },
-      {
-        "icon": "MdWorkOutline",
-        "text": "Freelance Project Support"
-      }
-    ],
-    "softwareYoullLearn": [
-      "Adobe Animate",
-      "Adobe After Effects",
-      "Adobe Photoshop",
-      "Toon Boom Harmony",
-      "Blender (Basic)",
-      "Audacity"
-    ],
-    "jobPositions": [
-      "Freelance 2D Animator",
-      "Explainer Video Creator",
-      "Motion Graphics Designer",
-      "Character Designer",
-      "Social Media Animation Specialist",
-      "Storyboard Artist"
     ]
   }
 ]
