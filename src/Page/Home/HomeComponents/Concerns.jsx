@@ -8,19 +8,19 @@ const Concerns = () => {
   const baseImages = [
     {
       id: 1,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-1.png",
+      src: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Seal_of_the_Institute_of_Information_Technology_%28University_of_Dhaka%29.svg",
     },
     {
       id: 2,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-2.png",
+      src: "https://images.seeklogo.com/logo-png/23/1/university-of-dhaka-logo-png_seeklogo-237637.png",
     },
     {
       id: 3,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-3.png",
+      src: "https://basis.org.bd/public/img/relatedlink/668b673940a1fBasis_logo.jpeg",
     },
     {
       id: 4,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-4.png",
+      src: "https://apromis.app/assets/asset_logo.png",
     },
     {
       id: 5,
@@ -28,15 +28,7 @@ const Concerns = () => {
     },
     {
       id: 6,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-5.png",
-    },
-    {
-      id: 7,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-7.png",
-    },
-    {
-      id: 8,
-      src: "https://www.theeverestitbd.com/images/patnar-logo/p-8.png",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzGQdP6s5V6S30SHSI0eOvIaRJ6t3vONUTsw&s",
     },
   ];
 
