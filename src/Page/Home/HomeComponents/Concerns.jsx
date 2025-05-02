@@ -83,26 +83,7 @@ const Concerns = () => {
 
         <div className="relative z-10">
           <SectionHeading title={"Our Working Partner"} />
-          <div className="flex flex-wrap justify-center gap-3 work pl-6 pb-8 pr-6 mt-12">
-            {["Our Concern", "Colaboration With", "Member Of"].map(
-              (cat, idx) => (
-                <label key={idx} className="fieldset-label dark:text-gray-600">
-                  <p
-                    onClick={() => handleCategoryChange(cat)}
-                    className={`fieldset-label btn rounded-md cursor-pointer shadow-md transition dark:border-gray-300 ${
-                      selectedCategory === cat
-                        ? "bg-[#141F51] text-white"
-                        : "bg-white text-gray-700 hover:bg-gray-50"
-                    }`}
-                  >
-                    {cat}
-                  </p>
-                </label>
-              )
-            )}
-          </div>
-
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-12 py-10">
             <div className="w-full lg:w-3/4 relative">
               <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2">
                 {paginatedImages.length > 0 ? (
