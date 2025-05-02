@@ -14,7 +14,7 @@
     "instructorPosition": "Senior System Admin",
     "technology": "Windows Server, Active Directory, DNS, DHCP, Group Policy, Hyper-V",
     "courseStart": "12-March-2025",
-    "duration": 16,
+    "duration": 360,
     "totalExam": 6,
     "totalProject": 5,
     "details": "This comprehensive Windows Server 2019 course provides in-depth training on server installation, configuration, and administration. Learn to manage Active Directory, implement network services (DNS, DHCP), configure storage solutions, and deploy virtualization with Hyper-V. The course prepares students for enterprise-level server management and Microsoft certification paths.",
@@ -88,7 +88,7 @@
     "instructorPosition": "Senior Graphics Designer",
     "technology": "Adobe Photoshop, Illustrator, InDesign, Branding, Typography",
     "courseStart": "26-March-2025",
-    "duration": 12,
+    "duration": 360,
     "totalExam": 3,
     "totalProject": 5,
     "details": "Master the tools and techniques of professional graphic design. Learn everything from branding to portfolio creation, including logo design, print media, digital graphics, and visual communication. Hands-on projects cover the complete design workflow using industry-standard Adobe Creative Suite applications.",
@@ -161,7 +161,7 @@
     "instructorPosition": "Digital Marketer & Trainer",
     "technology": "SEO, SEM, Facebook Ads, Google Ads, Email Marketing, Analytics",
     "courseStart": "18-March-2025",
-    "duration": 10,
+    "duration": 360,
     "totalExam": 3,
     "totalProject": 4,
     "details": "This professional digital marketing course covers comprehensive strategies including search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content marketing, and conversion optimization. Students will gain hands-on experience with Google Analytics, Ads platforms, and learn to create data-driven marketing campaigns that deliver measurable results.",
@@ -235,7 +235,7 @@
     "instructorPosition": "Network Admin",
     "technology": "Cisco IOS, Routing Protocols, Switching, Network Security, IPv4/IPv6, WAN Technologies",
     "courseStart": "26-March-2025",
-    "duration": 10,
+    "duration": 360,
     "totalExam": 3,
     "totalProject": 4,
     "details": "This CCNA certification course provides foundational knowledge in networking concepts, IP addressing, Cisco device configuration, and troubleshooting. Students will learn to configure routers and switches, implement network security, and understand WAN technologies. The course prepares participants for the Cisco CCNA certification exam and real-world networking challenges.",
@@ -308,7 +308,7 @@
     "instructorPosition": "MTCNA, MTCRE",
     "technology": "MikroTik RouterOS, Bandwidth Management, VPN Configuration, Firewall, Hotspot Setup",
     "courseStart": "16-March-2025",
-    "duration": 10,
+    "duration": 360,
     "totalExam": 3,
     "totalProject": 4,
     "details": "This specialized course focuses on MikroTik router configuration and ISP network setup. Participants will learn advanced routing, bandwidth management, VPN services, firewall configuration, and hotspot solutions. The training includes practical ISP setup scenarios, preparing students for MikroTik certification and real-world network administration roles.",
@@ -380,7 +380,7 @@
     "instructorPosition": "Trainer (Cisco & Juniper)",
     "technology": "JunOS CLI, Routing Protocols, Switching, Security Policies, Juniper Hardware",
     "courseStart": "25-March-2025",
-    "duration": 10,
+    "duration": 360,
     "totalExam": 3,
     "totalProject": 4,
     "details": "This professional Juniper Networks course provides comprehensive training on JunOS operating system, covering configuration and management of Juniper routers and switches. Students will learn JunOS CLI, routing protocols (OSPF, BGP), switching technologies, and security policies. The course prepares participants for Juniper certification exams and enterprise network administration roles.",
@@ -452,7 +452,7 @@
     "instructorPosition": "Senior Web Developer",
     "technology": "HTML5, CSS3, JavaScript, PHP, MySQL, WordPress, Bootstrap",
     "courseStart": "28-March-2025",
-    "duration": 12,
+    "duration": 360,
     "totalExam": 4,
     "totalProject": 5,
     "details": "This complete web development course covers both front-end and back-end technologies. Students will learn to build responsive websites using HTML5, CSS3, and JavaScript, then progress to server-side programming with PHP and MySQL. The curriculum includes WordPress theme development, e-commerce integration, and deployment strategies, preparing students for professional web development careers.",
@@ -509,6 +509,223 @@
       "WordPress Developer",
       "Web Application Developer",
       "UI Developer"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Graphic Design for Freelancing",
+    "category": "Art & Design",
+    "type": "Online",
+    "image": "https://www.theeverestitbd.com/images/course/cu-1.jpg",
+    "fee": "18000৳",
+    "rating": 4.8,
+    "totalRating": 95,
+    "totalStudentsEnroll": 220,
+    "instructorName": "Ayesha Rahman",
+    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
+    "instructorPosition": "Freelance Graphic Designer",
+    "technology": "Adobe Photoshop, Illustrator, Canva, Figma, Branding, Portfolio Development",
+    "courseStart": "5-April-2025",
+    "duration": 360,
+    "totalExam": 3,
+    "totalProject": 4,
+    "details": "A specialized course focused on building freelance graphic design skills. Learn to create client-ready designs, develop a professional portfolio, and manage freelance workflows. Topics include logo design, social media graphics, print media, and client communication strategies.",
+    "whatYoullLearn": [
+      "Create high-quality designs for logos, branding, and marketing materials",
+      "Develop a professional portfolio to showcase freelance work",
+      "Master Adobe Creative Suite tools for freelance projects",
+      "Design engaging social media and digital content",
+      "Understand client briefs and deliver effective design solutions",
+      "Set pricing, manage contracts, and market freelance services",
+      "Optimize workflows for efficient project delivery",
+      "Build a personal brand as a freelance designer"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Canva",
+      "Figma",
+      "Adobe XD",
+      "CorelDRAW"
+    ],
+    "jobPositions": [
+      "Freelance Graphic Designer",
+      "Logo Designer",
+      "Social Media Designer",
+      "Print Media Specialist",
+      "UI/UX Freelancer",
+      "Brand Identity Designer"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Digital Marketing for Freelancing",
+    "category": "Marketing",
+    "type": "Online",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbCy3wY4i0T4bjPxvbKZK4dv3JvysYGSS_w&s",
+    "fee": "20000৳",
+    "rating": 4.7,
+    "totalRating": 88,
+    "totalStudentsEnroll": 190,
+    "instructorName": "Farhan Ahmed",
+    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
+    "instructorPosition": "Freelance Digital Marketer",
+    "technology": "SEO, Google Ads, Facebook Ads, Email Marketing, Analytics, Content Strategy",
+    "courseStart": "10-April-2025",
+    "duration": 360,
+    "totalExam": 2,
+    "totalProject": 3,
+    "details": "A practical course tailored for freelance digital marketers. Learn to acquire clients, run campaigns, and scale freelance services. Topics include SEO, paid ads, email marketing, analytics, and client management tools.",
+    "whatYoullLearn": [
+      "Run SEO audits and optimize websites for clients",
+      "Create profitable Google and Facebook ad campaigns",
+      "Develop email marketing strategies for client retention",
+      "Analyze campaign performance using Google Analytics",
+      "Craft compelling pitches and proposals for clients",
+      "Automate marketing workflows for efficiency",
+      "Manage multiple freelance projects simultaneously",
+      "Build a personal brand as a digital marketing freelancer"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "40+ Live Marketing Workshops"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "5+ Client Campaign Simulations"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Marketing Tools Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Client Pitch Practice Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Marketing Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelance Client Acquisition Guide"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Google Analytics",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Mailchimp",
+      "Canva",
+      "Trello",
+      "WordPress"
+    ],
+    "jobPositions": [
+      "Freelance Digital Marketer",
+      "SEO Specialist",
+      "PPC Manager",
+      "Social Media Consultant",
+      "Email Marketing Freelancer",
+      "Content Strategist"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "2D Animation for Freelancing",
+    "category": "Art & Design",
+    "type": "Online",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJqFaFrTLJOoZQtzqygr7Nh1kg9wqb2kzxyQ&s",
+    "fee": "22000৳",
+    "rating": 4.8,
+    "totalRating": 92,
+    "totalStudentsEnroll": 170,
+    "instructorName": "Rahul Das",
+    "instructorImg": "https://www.theeverestitbd.com/images/instructor/12.png",
+    "instructorPosition": "2D Animation Specialist",
+    "technology": "Adobe Animate, After Effects, Storyboarding, Character Design, Motion Graphics",
+    "courseStart": "15-April-2025",
+    "duration": 360,
+    "totalExam": 3,
+    "totalProject": 5,
+    "details": "A hands-on course for aspiring freelance 2D animators. Learn to create animated explainer videos, social media content, and client projects. Topics include character design, motion graphics, and freelance workflow management.",
+    "whatYoullLearn": [
+      "Create animated explainer videos for clients",
+      "Design characters and storyboards for animations",
+      "Master Adobe Animate and After Effects",
+      "Produce motion graphics for social media and ads",
+      "Edit and export animations in multiple formats",
+      "Pitch animation projects to clients",
+      "Manage freelance animation workflows",
+      "Build a portfolio of animated projects"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "60+ Animation Tutorials"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "7+ Client Animation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Animation Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio Review Sessions"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Animation Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelance Project Support"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Animate",
+      "Adobe After Effects",
+      "Adobe Photoshop",
+      "Toon Boom Harmony",
+      "Blender (Basic)",
+      "Audacity"
+    ],
+    "jobPositions": [
+      "Freelance 2D Animator",
+      "Explainer Video Creator",
+      "Motion Graphics Designer",
+      "Character Designer",
+      "Social Media Animation Specialist",
+      "Storyboard Artist"
     ]
   }
 ]

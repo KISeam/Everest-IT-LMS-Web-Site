@@ -27,6 +27,9 @@ const SingleCourseCard = ({ course, populerCourse }) => {
               <p className="text-lg font-semibold text-gray-800 work">
                 Course Fee: {course.fee}
               </p>
+              <p className="text-lg font-semibold text-gray-800 work">
+                Course Duration: {course.duration} hours
+              </p>
               <button className="bg-[#141F51] rounded-md py-1.5 px-7 work tracking-tight text-[15px] text-white cursor-pointer border border-[#141F51] w-full mt-2">
                 Enroll Now
               </button>
