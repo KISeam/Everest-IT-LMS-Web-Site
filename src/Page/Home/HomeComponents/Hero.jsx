@@ -17,10 +17,10 @@ const Hero = () => {
               </p>
             </div>
 
-            <h1 className="md:text-6xl uppercase my-4 text-4xl   outfit csd">
+            <h1 className="md:text-6xl uppercase md:my-4  -my-2 text-[40px]  outfit csd">
               The <span className="cpr"> Everest</span> It
             </h1>
-            <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[14px] poppins">
+            <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] poppins">
               Get ready to embark on a journey of knowledge with our innovative
               learning platform. Explore a wide range of courses and interactive
               lessons designed by industry-expert instructors to help you reach
