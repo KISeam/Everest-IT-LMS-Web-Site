@@ -5,7 +5,7 @@ const SeminarAndEvent = () => {
   return (
     <>
       <div className="bg-white py-12 md:py-16">
-        <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 lg:px-12 rounded-2xl bg-[#FAF0F0] shadow-xl">
+        <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 lg:px-12 rounded-2xl bg-[#E6F2FF] shadow-xl">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
             <div className="space-y-6 w-full lg:w-1/2">
               <div className="space-y-3">

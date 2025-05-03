@@ -5,6 +5,7 @@ import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import logo from "../../assets/img/logo.png";
 import pay from "../../assets/img/pay_with.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -45,42 +46,24 @@ const Footer = () => {
                     Quick Links
                   </h2>
                   <div className="flex flex-col items-start gap-1">
-                    <p
+                    <Link to="about"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
                       About Us
-                    </p>
-                    <p
+                    </Link>
+                    <Link to="contact"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
                       Contact Us
-                    </p>
-                    <p
+                    </Link>
+                    <Link to="courses"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
-                      Success Story
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Mentors
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Team
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Refund Policy
-                    </p>
+                      Courses
+                    </Link>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
@@ -88,42 +71,30 @@ after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:d
                     Course Categories
                   </h2>
                   <div className="flex flex-col items-start gap-1">
-                    <p
+                    <Link to="courses?category=Art%2520%2526%2520Design"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
-                      Multimedia
-                    </p>
-                    <p
+                      Art & Design
+                    </Link>
+                    <Link to="courses?category=Marketing"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
-                      Web Technology
-                    </p>
-                    <p
+                      Marketing
+                    </Link>
+                    <Link to="courses?category=Web%2520Development"
+                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
+after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
+                    >
+                      Web Development
+                    </Link>
+                    <Link to="courses?category=Networking%2520%2526%2520Server"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
                       Networking & Server
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Software Development
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Programming
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#f81515] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#f81515] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Database
-                    </p>
+                    </Link>
                   </div>
                 </div>
               </div>
