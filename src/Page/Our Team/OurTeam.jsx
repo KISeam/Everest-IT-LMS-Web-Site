@@ -1,5 +1,4 @@
 import React from "react";
-import Overview from "./Our Team Component/Overview";
 import SectionHeading from "../../Components/Shared/SectionHeading";
 
 const OurTeam = () => {
@@ -86,9 +85,6 @@ const OurTeam = () => {
           </div>
         </div>
 
-        {/* <div className="w-9/12 mx-auto">
-          <Overview />
-        </div> */}
       </div>
     </>
   );
