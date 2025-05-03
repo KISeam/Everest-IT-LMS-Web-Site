@@ -7,6 +7,7 @@ import Employe from "./HomeComponents/Employe";
 import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import FAQ from "./HomeComponents/FAQ";
+import Review from "./HomeComponents/Review";
 
 
 const Home = () => {
@@ -21,13 +22,14 @@ const Home = () => {
           <PopularCourse />
         </div>
       </div>
-      
+
       <Concerns></Concerns>
       <SeminarAndEvent></SeminarAndEvent>
       {/* <SuccesHistory></SuccesHistory> */}
       <WhatWeProvide></WhatWeProvide>
       <Employe></Employe>
-      <FAQ />
+      {/* <FAQ /> */}
+      <Review />
     </div>
   );
 };

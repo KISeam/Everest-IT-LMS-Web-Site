@@ -49,3 +49,23 @@
 .crd {
   color: #414042;
 }
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(0);
+  }
+  66.66% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  animation: slide 10s infinite;
+}
