@@ -39,7 +39,7 @@ const Address = () => {
               fontSize: { xs: "1.75rem", md: "2.125rem" },
             }}
           >
-            Office Information
+            Office <span className="cpr">Information</span>
           </Typography>
           <Typography
             variant="body1"

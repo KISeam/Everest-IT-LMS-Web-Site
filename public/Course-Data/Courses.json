@@ -1,10 +1,12 @@
+
+
 [
   {
     "id": 1,
     "title": "Graphic Design for Freelancing",
     "category": "Art & Design",
     "type": "Online",
-    "image": "../../src/assets/img/GD-Card.jpg",
+    "image": "https://i.ibb.co.com/zWvWjS9X/GD-Card-1.jpg",
     "fee": "18000৳",
     "rating": 4.8,
     "totalRating": 95,
@@ -76,7 +78,7 @@
     "title": "Digital Marketing for Freelancing",
     "category": "Marketing",
     "type": "Online",
-    "image": "../../src/assets/img/DM-caed.jpg",
+    "image": "https://i.ibb.co.com/GvS6k4FJ/DM-caed.jpg",
     "fee": "20000৳",
     "rating": 4.7,
     "totalRating": 88,
