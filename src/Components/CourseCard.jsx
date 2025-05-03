@@ -5,7 +5,7 @@ import { IoMdCall } from "react-icons/io";
 import { LuBookOpenCheck } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
-const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
+const CourseCard = ({ id, title, category, type, image, fee }) => {
   return (
     <>
       <div>
@@ -42,17 +42,17 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                   Course Fee {fee}
                 </p>
                 <div className="rating text-sm">
-                  {[...Array(5)].map((_, i) => (
-                    <input
-                      key={i}
-                      type="radio"
-                      name={`rating-${id}`}
-                      className="mask mask-star-2 bg-orange-400 w-5"
-                      aria-label={`${i + 1} star`}
-                      defaultChecked={i + 1 === rating}
-                    />
-                  ))}
-                </div>
+  {[...Array(5)].map((_, i) => (
+    <input
+      key={i}
+      type="radio"
+      name={`rating-${id}`}
+      className="mask mask-star-2 bg-orange-400 w-5 pointer-events-none"
+      checked
+      readOnly
+    />
+  ))}
+</div>
               </div>
             </div>
 
