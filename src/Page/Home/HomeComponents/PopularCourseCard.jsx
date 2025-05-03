@@ -64,11 +64,10 @@ const PopularCourseCard = () => {
         {courseCategorys.map((cat, idx) => (
           <label
             key={idx}
-            className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none ${
-              selectedCategory === (cat.name || cat)
+            className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none ${selectedCategory === (cat.name || cat)
                 ? "bg-[#141F51] text-white"
                 : "bg-white text-gray-700 hover:bg-gray-50"
-            }`}
+              }`}
             onClick={() => setSelectedCategory(cat.name)}
           >
             {cat.name}
@@ -135,8 +134,8 @@ const PopularCourseCard = () => {
                           type="radio"
                           name={`rating-${course.id}`}
                           className="mask mask-star-2 bg-orange-400 w-5"
-                          aria-label={`${i + 1} star`}
-                          defaultChecked={i + 1 === course.rating}
+                          checked
+                          readOnly
                         />
                       ))}
                     </div>
