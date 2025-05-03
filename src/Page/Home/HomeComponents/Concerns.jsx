@@ -73,16 +73,17 @@ const Concerns = () => {
 
   return (
     <div className="py-12 md:py-16 relative bg-white">
-      <div className="relative w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-[#E6F2FF] shadow-xl">
+      <div className="relative w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-gray-50 shadow-md">
         <div
           className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-5"
-          style={{
-            backgroundImage: `url('https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/491185347_1085730833599336_6679927905642902823_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFMxqaiP5Vt0I1t6mXG8XC1dNnDbsVyffx02cNuxXJ9_MPyrTfVZTCx0vCN0yD0Cw46plaADOVLbLgLlZvYSbs_&_nc_ohc=OC5TdUjhyRMQ7kNvwHj744_&_nc_oc=AdlLq8prVk2-PMmbvhvxZ5JJ-svcd-XzkDbsbytax2LOvrG26hQPIxjJa-cd_ZN65Gg&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=cde8rQ94wWzg9tFxRh0r0g&oh=00_AfEXNuJppYlJjdSf1dPIGLW1sTGCxo5vvrocvFLGD1Rt_A&oe=68112840')`,
-          }}
+         
         ></div>
 
         <div className="relative z-10">
-          <SectionHeading title={"Our Working Partner"} />
+  
+          <h1 className="text-center csd text-4xl md:text-5xl lg:text-6xl font-semibold outfit-semibold work">
+          Our <span className="cpr"> Working </span>Partner
+        </h1>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-12 py-10">
             <div className="w-full lg:w-3/4 relative">
               <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2">

@@ -1,5 +1,4 @@
 import React from "react";
-import { FiBookOpen } from "react-icons/fi";
 import { LuBookOpenCheck } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
@@ -19,7 +18,7 @@ const Hero = () => {
             </div>
 
             <h1 className="md:text-6xl uppercase my-4 text-5xl   outfit csd">
-              The Everest It
+              The <span className="cpr"> Everest</span> It
             </h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[14px] poppins">
               Get ready to embark on a journey of knowledge with our innovative
@@ -84,7 +83,7 @@ const Hero = () => {
             {/* Get Course Buttons */}
             <div className="flex gap-3 sm:gap-4 flex-wrap">
               <Link className="cursor-pointer">
-                <button className="flex gap-1 cursor-pointer text-base sm:text-lg md:text-xl items-center bg-[#141F51] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-[#37416e] transition-colors">
+                <button className="flex gap-1 cursor-pointer text-base sm:text-lg md:text-xl items-center bg-[#f81515] hover:bg-[#141F51] px-3 sm:px-4 py-1 sm:py-2 rounded-md  transition-colors">
                   <LuBookOpenCheck className="text-xl sm:text-2xl text-white font-semibold" />
                   <p className="text-white  work ">Join Seminar & Events</p>
                 </button>
