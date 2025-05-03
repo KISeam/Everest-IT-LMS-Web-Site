@@ -1,5 +1,4 @@
 import React from "react";
-import SectionHeading from "../../../Components/Shared/SectionHeading";
 
 const FAQ = () => {
   return (
@@ -7,7 +6,9 @@ const FAQ = () => {
       <div className="bg-white py-16">
         <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-12/12 mx-auto">
           <div className="flex flex-col gap-10">
-            <SectionHeading title={"Frequently Asked Questions"} />
+            <h1 className="text-center csd text-4xl md:text-5xl lg:text-6xl font-semibold outfit-semibold work">
+              Frequently Asked <span className="cpr">Questions</span>
+            </h1>
             <div className="w-3/4 mx-auto space-y-4">
               <div className="join join-vertical bg-gray-50 text-gray-500 w-full">
                 <div className="collapse collapse-arrow join-item border-gray-300 border">
