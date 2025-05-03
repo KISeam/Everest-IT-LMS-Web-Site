@@ -45,7 +45,7 @@ const Navbar = () => {
       <div>
         {/* Mobile Menu Dropdown */}
         <div
-          className={`fixed top-0 left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${
+          className={`fixed top-0 left-0 w-[70%] bg-[#FAF0F0] shadow-lg z-40 transform transition-all duration-300 ease-in-out ${
             isMobileMenuOpen
               ? "translate-y-0 opacity-100"
               : "-translate-y-full opacity-0"
@@ -95,7 +95,7 @@ const Navbar = () => {
 
         {/* Main Navbar */}
         <div
-          className={`border-b border-gray-200 font-poppins sticky top-0 z-50 bg-white
+          className={`border-b border-gray-200 font-poppins sticky top-0 z-50 bg-[#FAF0F0]
           transition-all duration-500 ease-in-out
           ${isSticky ? "shadow-md opacity-100 translate-y-0" : "shadow-none"}
         `}
@@ -146,7 +146,7 @@ const Navbar = () => {
             <Link to="/courses">
               {" "}
               <div className="hidden lg:block">
-                <div className="flex gap-2 text-xl items-center bg-[#141F51] px-4 py-2 rounded-md cursor-pointer transition-all hover:brightness-110">
+                <div className="flex gap-2 text-xl items-center bg-[#EF1414] px-4 py-2 rounded-md cursor-pointer transition-all hover:brightness-110">
                   <PiBookOpen className="text-2xl text-white font-semibold" />
                   <p className="text-white text-[16px] font-semibold">
                     GetCourse

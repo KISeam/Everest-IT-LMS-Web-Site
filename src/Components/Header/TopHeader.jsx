@@ -7,16 +7,16 @@ import { FiTwitter } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
 const TopHeader = () => {
   return (
-    <div className=" bg-[#E6F2FF] poppins hidden lg:block">
+    <div className=" bg-[#FAF0F0] poppins hidden lg:block">
       <div className="w-full sm:w-11/12 lg:w-10/12 2xl:w-9/12 mx-auto">
         <div className=" flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center gap-5 py-2 ">
             <div className="flex gap-1 items-center  pr-4 ">
-              <IoMdCall className="text-[20px] text-[#f81515] " />
+              <IoMdCall className="text-[20px] text-white " />
               <p className="text-[15px] dark:text-black/70">+8801776057078</p>
             </div>
             <div className="flex gap-2  text-[20px] items-center">
-              <IoMailOutline className="text-xl  text-[#f81515]" />
+              <IoMailOutline className="text-xl  text-white" />
               <p className="text-[15px] dark:text-black/70">
                 theeverestit@gmail.com
               </p>
@@ -24,7 +24,7 @@ const TopHeader = () => {
           </div>
           <div>
             <div className="flex gap-12 items-center">
-              <div className="flex gap-6 text-[20px] text-gray-700 items-start">
+              <div className="flex gap-6 text-[20px] text-white items-start">
                 <SlSocialFacebook />
                 <SlSocialLinkedin />
                 <FaInstagram className="transform translate-y-[2px]" />
