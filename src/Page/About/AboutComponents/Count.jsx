@@ -53,7 +53,7 @@ const Count = () => {
   };
 
   return (
-    <div className="py-12 bg-[#effbff]">
+    <div className="py-12 bg-white">
       <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
           {counters.map((item, index) => {

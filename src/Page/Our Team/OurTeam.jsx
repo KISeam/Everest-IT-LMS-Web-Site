@@ -50,7 +50,7 @@ const OurTeam = () => {
   return (
     <>
       <div className="bg-white">
-        <div className="bg-[#effbff]">
+        <div className="bg-gray-50">
           <div className="lg:w-10/12 w-full mx-auto pt-10">
             <SectionHeading
               title={"Our Team"}
