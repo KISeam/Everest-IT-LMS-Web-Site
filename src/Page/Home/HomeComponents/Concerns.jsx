@@ -76,12 +76,10 @@ const Concerns = () => {
       <div className="relative w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-gray-50 shadow-md">
         <div
           className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-5"
-         
         ></div>
 
         <div className="relative z-10">
-  
-          <h1 className="text-center csd text-4xl md:text-5xl lg:text-6xl font-semibold outfit-semibold work">
+        <h1 className="text-center csd text-4xl md:text-5xl lg:text-6xl font-semibold outfit-semibold work">
           Our <span className="cpr"> Working </span>Partner
         </h1>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-12 py-10">
