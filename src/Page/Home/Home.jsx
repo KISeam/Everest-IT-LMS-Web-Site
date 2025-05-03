@@ -16,14 +16,14 @@ const Home = () => {
   return (
     <div className=" ">
       <div
-        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 w-full relative bg-[#FAF0F0]"
+        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 w-full relative bg-[#E6F2FF]"
       >
           <Hero />
       </div>
       <HomeCategory />
       <div className="bg-gray-50 py-16">
         <div
-          className="bg-cover w-full sm:w-11/12 lg:w-11/12 2xl:w-12/12 mx-auto px-4 sm:px-6 lg:px-8 rounded-2xl bg-[#FAF0F0] shadow-xl"
+          className="bg-cover w-full sm:w-11/12 lg:w-11/12 2xl:w-12/12 mx-auto px-4 sm:px-6 lg:px-8 rounded-2xl bg-[#E6F2FF] shadow-xl"
           // style={{ backgroundImage: `url(${bgImage2})` }}
         >
           <PopularCourse />
