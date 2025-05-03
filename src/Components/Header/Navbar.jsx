@@ -68,7 +68,7 @@ const Navbar = () => {
                         `block px-4 py-3 rounded-lg transition-all duration-300 text-lg ${
                           isActive
                             ? "bg-[#f81515] text-white"
-                            : "text-gray-700 hover:bg-gray-100"
+                            : "text-gray-700 hover:bg-gray-50"
                         }`
                       }
                     >
@@ -95,7 +95,7 @@ const Navbar = () => {
 
         {/* Main Navbar */}
         <div
-          className={`border-b border-gray-200 font-poppins sticky top-0 z-50 bg-[#FAF0F0]
+          className={`border-b border-gray-200 font-poppins sticky top-0 z-50 bg-gray-50
           transition-all duration-500 ease-in-out
           ${isSticky ? "shadow-md opacity-100 translate-y-0" : "shadow-none"}
         `}

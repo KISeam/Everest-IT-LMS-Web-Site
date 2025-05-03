@@ -4,7 +4,7 @@ import ButtonPrimary from "../../../Components/Shared/ButtonPrimary";
 const Employe = () => {
   return (
     <div className="bg-white pb-12 md:pb-20">
-      <div className="bg-[#E6F2FF] shadow-xl border border-gray-200 w-11/12 md:w-10/12 mx-auto rounded-2xl py-16 px-4">
+      <div className="bg-gray-50 shadow-xl border border-gray-200 w-11/12 md:w-10/12 mx-auto rounded-2xl py-16 px-4">
 
         <div className="flex flex-col lg:flex-row justify-between items-center gap-12 px-6 lg:px-12">
           <div className="w-full lg:w-1/2 rounded-xl overflow-hidden">
@@ -16,9 +16,9 @@ const Employe = () => {
 
           <div className="space-y-6 w-full lg:w-1/2">
             <div className="space-y-3">
-              <p className="crd work text-lg md:text-xl">5 Years Expert </p>
+              <p className=" work text-lg md:text-xl cpr">5 Years Expert </p>
               <h1 className="csd text-2xl md:text-4xl lg:text-6xl font-semibold outfit-semibold work">
-                Meet Our Members
+                Meet Our <span className="cpr">Members</span>
               </h1>
               <p className="crd work text-base lg:text-lg">
                 At the heart of our organization lies an exceptional team of

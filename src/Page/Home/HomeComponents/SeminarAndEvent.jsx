@@ -5,12 +5,12 @@ const SeminarAndEvent = () => {
   return (
     <>
       <div className="bg-white py-12 md:py-16">
-        <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 lg:px-12 rounded-2xl bg-[#E6F2FF] shadow-xl">
+        <div className="w-full sm:w-11/12 lg:w-11/12 2xl:w-10/12 mx-auto py-12 px-6 lg:px-12 rounded-2xl bg-gray-50 shadow-xl">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
             <div className="space-y-6 w-full lg:w-1/2">
               <div className="space-y-3">
                 <h1 className="csd text-xl md:text-3xl lg:text-5xl font-semibold outfit-semibold work">
-                  Join Our Free Seminars
+                  Join Our <span className="cpr">Free Seminars</span>
                 </h1>
                 <p className="crd work text-base lg:text-lg">
                   Need guidelines to choose a suitable course? Join our free
