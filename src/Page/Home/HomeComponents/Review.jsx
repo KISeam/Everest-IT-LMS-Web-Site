@@ -58,7 +58,6 @@ const Review = () => {
         </div>
 
         <div className="relative w-full h-[450px] sm:h-[500px] md:h-[550px] overflow-hidden rounded-3xl shadow-xl border border-gray-200 bg-white">
-          {/* Slide container */}
           <div
             className="absolute inset-0 flex transition-transform duration-700 ease-in-out"
             style={{
@@ -92,10 +91,12 @@ const Review = () => {
             ))}
           </div>
 
-          {/* Navigation controls */}
           <button
-            onClick={prevSlide}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-white/80 hover:bg-white shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500"
+            onClick={(e) => {
+              prevSlide();
+              e.currentTarget.blur();
+            }}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-white/80 hover:bg-white shadow-md transition-all focus:outline-none active:ring-2 active:ring-[#EF1414] cursor-pointer"
             aria-label="Previous review"
           >
             <svg
@@ -114,8 +115,11 @@ const Review = () => {
           </button>
 
           <button
-            onClick={nextSlide}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-white/80 hover:bg-white shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500"
+            onClick={(e) => {
+              nextSlide();
+              e.currentTarget.blur();
+            }}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full bg-white/80 hover:bg-white shadow-md transition-all focus:outline-none active:ring-2 active:ring-[#EF1414] cursor-pointer"
             aria-label="Next review"
           >
             <svg
@@ -133,7 +137,6 @@ const Review = () => {
             </svg>
           </button>
 
-          {/* Pagination dots */}
           <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
             {reviews.map((_, index) => (
               <button
