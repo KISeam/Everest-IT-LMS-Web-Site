@@ -100,7 +100,7 @@ const SingleCourseDetails = ({ course, populerCourse }) => {
                     What you'll learn
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {course.whatYoullLearn.map((item, index) => (
+                    {course.curriculum.map((item, index) => (
                       <div key={index} className="flex gap-1.5">
                         <FaCheck className="cpr text-base mt-0.5" />
                         <p className="text-md crd">{item}</p>
