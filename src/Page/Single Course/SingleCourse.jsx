@@ -88,9 +88,14 @@ const SingleCourse = () => {
                     <p className="crd work text-lg lg:text-2xl leading-8">
                       {course?.details}
                     </p>
-                    <button className="bg-[#141F51] rounded-md py-3 px-7 work tracking-tight text-[21px] text-white cursor-pointer border border-[#141F51] mt-2">
-                      Enroll Now
-                    </button>
+                    <div className="flex flex-wrap items-center gap-6">
+                      <p className="text-xl md:text-3xl text-gray-800 outfit-semibold">
+                        Course Fee: {course?.fee}
+                      </p>
+                      <button className="bg-red-600 hover:bg-red-700 rounded-md py-3 px-7 work tracking-tight text-[21px] text-white cursor-pointer">
+                        Enroll Now
+                      </button>
+                    </div>
                     <div className="flex flex-wrap gap-2.5">
                       <div className="cpr flex items-center gap-0.5">
                         <span className="text-lg outfit-semibold">
