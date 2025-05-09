@@ -42,17 +42,17 @@ const CourseCard = ({ id, title, category, type, image, fee }) => {
                   Course Fee {fee}
                 </p>
                 <div className="rating text-sm">
-  {[...Array(5)].map((_, i) => (
-    <input
-      key={i}
-      type="radio"
-      name={`rating-${id}`}
-      className="mask mask-star-2 bg-orange-400 w-5 pointer-events-none"
-      checked
-      readOnly
-    />
-  ))}
-</div>
+                  {[...Array(5)].map((_, i) => (
+                    <input
+                      key={i}
+                      type="radio"
+                      name={`rating-${id}`}
+                      className="mask mask-star-2 bg-orange-400 w-5 pointer-events-none"
+                      checked
+                      readOnly
+                    />
+                  ))}
+                </div>
               </div>
             </div>
 
@@ -62,7 +62,7 @@ const CourseCard = ({ id, title, category, type, image, fee }) => {
                 className="flex gap-2 text-xl items-center border bg-[#141F51] border-[#141F51] px-4 py-2 rounded-md"
               >
                 <LuBookOpenCheck className="text-md font-semibold text-white" />
-                <p className="work tracking-tight text-[15px] text-white">
+                <p className="work tracking-tight text-[15px] text-white text-nowrap">
                   Course Details
                 </p>
               </Link>
@@ -73,7 +73,7 @@ const CourseCard = ({ id, title, category, type, image, fee }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="flex gap-1 text-xl items-center border border-[#141F51] px-4 py-2 mr-6 rounded-md hover:bg-[#e0f7f5] cursor-pointer transition">
+                <div className="flex gap-1 text-xl items-center border text-nowrap border-[#141F51] px-4 py-2 mr-6 rounded-md hover:bg-[#e0f7f5] cursor-pointer transition">
                   <FaWhatsapp className="text-2xl text-[#141F51] font-semibold" />
                   <p className="text-[#141F51] work text-md tracking-tight text-[15px]">
                     Get Course
