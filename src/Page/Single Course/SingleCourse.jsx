@@ -9,6 +9,7 @@ import {
 import { MdLiveTv, MdWorkOutline } from "react-icons/md";
 import { TfiCup } from "react-icons/tfi";
 import CourseCard from "../../Components/CourseCard";
+import { CiCircleCheck } from "react-icons/ci";
 
 const SingleCourse = () => {
   const [course, setCourse] = useState(null);
@@ -88,7 +89,7 @@ const SingleCourse = () => {
                         </p>
                       </div>
                     </div>
-                    <p className="crd work text-lg lg:text-2xl leading-8">
+                    <p className="crd work text-lg lg:text-xl leading-8">
                       {course?.details}
                     </p>
                     <div className="flex flex-wrap items-center gap-6">
@@ -149,7 +150,7 @@ const SingleCourse = () => {
                 <h2 className="font-bold csd text-2xl md:text-5xl">
                   Course Overview
                 </h2>
-                <p className="crd text-lg lg:text-2xl outfit-semibold leading-8">
+                <p className="crd text-lg lg:text-xl work leading-8">
                   {course?.courseOverview}
                 </p>
               </div>
@@ -167,7 +168,7 @@ const SingleCourse = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                           {course?.curriculum.map((item, index) => (
                             <div key={index} className="flex gap-1.5">
-                              <FaCheck className="cpr text-base mt-0.5" />
+                              <CiCircleCheck className="cpr text-base mt-0.5" />
                               <p className="text-md crd">{item}</p>
                             </div>
                           ))}
@@ -200,7 +201,7 @@ const SingleCourse = () => {
                               key={index}
                               className="flex items-center gap-1.5"
                             >
-                              <FaCheck className="cpr text-base" />
+                              <CiCircleCheck className="cpr text-base" />
                               <p className="text-md crd">{software}</p>
                             </div>
                           ))}
@@ -217,7 +218,7 @@ const SingleCourse = () => {
                               key={index}
                               className="flex items-center gap-1.5"
                             >
-                              <div className="w-3 h-3 rounded-full bg-[#f81515]"></div>
+                              <CiCircleCheck/>
                               <p className="crd text-md">{job}</p>
                             </div>
                           ))}
@@ -233,7 +234,7 @@ const SingleCourse = () => {
                         </p>
                       </div>
 
-                      <div className="space-y-4">
+                      {/* <div className="space-y-4">
                         <h2 className="outfit-semibold csd text-2xl md:text-3xl">
                           Instructor
                         </h2>
@@ -254,7 +255,7 @@ const SingleCourse = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
