@@ -58,7 +58,7 @@ const CourseCard = ({ id, title, category, type, image, fee }) => {
 
             <div className="flex justify-between items-center mt-2 pl-4 mb-2">
               <Link
-                to={`${id}`}
+                to={`/courses/${id}`}
                 className="flex gap-2 text-xl items-center border bg-[#141F51] border-[#141F51] px-4 py-2 rounded-md"
               >
                 <LuBookOpenCheck className="text-md font-semibold text-white" />
