@@ -3,25 +3,27 @@ import React from "react";
 const Review = () => {
   const reviews = [
     {
-      image: "https://media.licdn.com/dms/image/v2/D5603AQHRupoaqZqZEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708735165401?e=2147483647&v=beta&t=aE6gy1OQg38aViEj36KDAf0JOPEsfAWvySfH5nEznL8",
+      image:
+        "https://media.licdn.com/dms/image/v2/D5603AQHRupoaqZqZEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708735165401?e=2147483647&v=beta&t=aE6gy1OQg38aViEj36KDAf0JOPEsfAWvySfH5nEznL8",
       quote:
-        "This course helped me transition from a beginner to a confident frontend developer. The hands-on projects and clear instructions made all the difference.",
+        "This course sharpened my creative skills and taught me how to deliver compelling visuals. It gave me the confidence to work on real client projects.",
       name: "Rakib Hossain",
-      role: "Frontend Developer",
+      role: "Graphic Designer",
     },
     {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy0WPuNcX0OTT3qZm2b6dFQ1baVkOx0ayEnA&s",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy0WPuNcX0OTT3qZm2b6dFQ1baVkOx0ayEnA&s",
       quote:
-        "Excellent content and well-structured modules. I gained real-world skills and started freelancing right after completing the course.",
+        "The digital marketing strategies I learned were practical and immediately applicable. I successfully launched my first campaign within a week.",
       name: "Nusrat Jahan",
-      role: "UI/UX Designer",
+      role: "Digital Marketing Specialist",
     },
     {
       image: "https://niter.edu.bd/storage/facultyMember/1715656911.jpg",
       quote:
-        "The instructors are industry experts. After completing this course, I received multiple job offers. Highly recommended for anyone serious about tech.",
+        "From storyboarding to editing, this course covered it all. I now create professional 2D animations and motion graphics for clients worldwide.",
       name: "Hasan Mahmud",
-      role: "Software Engineer",
+      role: "Video & 2D Animation Artist",
     },
   ];
 
@@ -30,10 +32,10 @@ const Review = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="csd text-2xl md:text-4xl lg:text-6xl font-semibold outfit-semibold work">
-               What Our <span className="cpr">Students Say</span>
-              </h1>
+            What Our <span className="cpr">Students Say</span>
+          </h1>
           <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-semibold">
-             <span className="text-red-500"></span>
+            <span className="text-red-500"></span>
           </h1>
         </div>
 
@@ -53,7 +55,9 @@ const Review = () => {
               <blockquote className="text-gray-700 italic mb-4">
                 "{review.quote}"
               </blockquote>
-              <div className="font-bold text-xl text-gray-900">{review.name}</div>
+              <div className="font-bold text-xl text-gray-900">
+                {review.name}
+              </div>
               <div className="text-gray-500">{review.role}</div>
             </div>
           ))}
