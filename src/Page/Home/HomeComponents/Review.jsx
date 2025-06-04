@@ -3,21 +3,21 @@ import React from "react";
 const Review = () => {
   const reviews = [
     {
-      image: "https://randomuser.me/api/portraits/men/75.jpg",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHRupoaqZqZEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708735165401?e=2147483647&v=beta&t=aE6gy1OQg38aViEj36KDAf0JOPEsfAWvySfH5nEznL8",
       quote:
         "This course helped me transition from a beginner to a confident frontend developer. The hands-on projects and clear instructions made all the difference.",
       name: "Rakib Hossain",
       role: "Frontend Developer",
     },
     {
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy0WPuNcX0OTT3qZm2b6dFQ1baVkOx0ayEnA&s",
       quote:
         "Excellent content and well-structured modules. I gained real-world skills and started freelancing right after completing the course.",
       name: "Nusrat Jahan",
       role: "UI/UX Designer",
     },
     {
-      image: "https://randomuser.me/api/portraits/men/65.jpg",
+      image: "https://niter.edu.bd/storage/facultyMember/1715656911.jpg",
       quote:
         "The instructors are industry experts. After completing this course, I received multiple job offers. Highly recommended for anyone serious about tech.",
       name: "Hasan Mahmud",
