@@ -1,25 +1,26 @@
 import React from "react";
+import reviewImg1 from "../../../assets/img/Review1.jpg";
+import reviewImg2 from "../../../assets/img/Review2.jpg";
+import reviewImg3 from "../../../assets/img/Review3.jpg";
 
 const Review = () => {
   const reviews = [
     {
-      image:
-        "https://media.licdn.com/dms/image/v2/D5603AQHRupoaqZqZEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708735165401?e=2147483647&v=beta&t=aE6gy1OQg38aViEj36KDAf0JOPEsfAWvySfH5nEznL8",
+      image: reviewImg1,
       quote:
         "This course sharpened my creative skills and taught me how to deliver compelling visuals. It gave me the confidence to work on real client projects.",
       name: "Rakib Hossain",
       role: "Graphic Designer",
     },
     {
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy0WPuNcX0OTT3qZm2b6dFQ1baVkOx0ayEnA&s",
+      image: reviewImg2,
       quote:
         "The digital marketing strategies I learned were practical and immediately applicable. I successfully launched my first campaign within a week.",
       name: "Nusrat Jahan",
       role: "Digital Marketing Specialist",
     },
     {
-      image: "https://niter.edu.bd/storage/facultyMember/1715656911.jpg",
+      image: reviewImg3,
       quote:
         "From storyboarding to editing, this course covered it all. I now create professional 2D animations and motion graphics for clients worldwide.",
       name: "Hasan Mahmud",
