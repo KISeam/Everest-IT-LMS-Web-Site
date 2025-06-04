@@ -15,7 +15,7 @@ const Employe = () => {
 
           <div className="space-y-6 w-full lg:w-1/2">
             <div className="space-y-3">
-            <p className=" work text-lg md:text-xl cpr">5 Years Expert </p>
+              <p className=" work text-lg md:text-xl cpr">5 Years Expert </p>
               <h1 className="csd text-2xl md:text-4xl lg:text-6xl font-semibold outfit-semibold work">
                 Meet Our <span className="cpr">Members</span>
               </h1>

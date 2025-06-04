@@ -5,17 +5,17 @@ const categories = [
   {
     img: "https://cdn-icons-png.flaticon.com/128/3940/3940120.png",
     title: "Art & Design",
-    subtitle: "Fun with Challeng",
+    subtitle: "Fun with Challenge",
   },
   {
     img: "https://cdn-icons-png.flaticon.com/128/7011/7011353.png",
     title: "Marketing",
-    subtitle: "Fun with Challeng",
+    subtitle: "Fun with Challenge",
   },
   {
     img: "https://cdn-icons-png.flaticon.com/128/3598/3598209.png",
     title: "Networking & Server",
-    subtitle: "Fun with Challeng",
+    subtitle: "Fun with Challenge",
   },
   {
     img: "https://cdn-icons-png.flaticon.com/128/10857/10857083.png",
